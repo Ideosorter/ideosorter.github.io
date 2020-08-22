@@ -98,8 +98,8 @@ questions = [
 		}
 	},
 	{
-		"question": "Should the economy by organised by unions, or by the state?",
-		"answers": "1",
+		"question": "Should the economy by organized by unions, or by the state?",
+		"answers": "6",
 		"results": {
 			"a": "30",
 			"b": "0",
