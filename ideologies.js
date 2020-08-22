@@ -16,7 +16,7 @@ ideology = [
 		"flag": "flags/ancap_flag.png"
 	},
 	{
-		"ideology": "You're an Anarcho-Collectivism",
+		"ideology": "You're an Anarcho-Collectivist",
 		"flag": "flags/ancol_flag.png"
 	},
 	{
