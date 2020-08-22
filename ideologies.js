@@ -28,11 +28,11 @@ ideology = [
 		"flag": "flags/angeo_flag.png"
 	},
 	{
-		"ideology": "You're an Anarcho-Primitvism",
+		"ideology": "You're an Anarcho-Primitvist",
 		"flag": "flags/anprim_flag.png"
 	},
 	{
-		"ideology": "You're an Anarcho-Syndicalism",
+		"ideology": "You're an Anarcho-Syndicalist",
 		"flag": "flags/ansynd_flag.png"
 	},
 	{
