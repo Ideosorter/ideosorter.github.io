@@ -574,7 +574,7 @@ questions = [
 		}
 	},
 	{
-		"question": "- Should society be organised through unions?",
+		"question": "Should society be organised through unions?",
 		"answers": "1",
 		"results": {
 			"a": "44",
