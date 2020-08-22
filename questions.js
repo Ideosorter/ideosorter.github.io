@@ -70,7 +70,7 @@ questions = [
 		}
 	},
 	{
-		"question": "In your ideal society, would traditional values be upheld?",
+		"question": "Do you deem an authoritarian state necessary to secure the values and sovereignty of your nation?",
 		"answers": "1",
 		"results": {
 			"a": "0",
