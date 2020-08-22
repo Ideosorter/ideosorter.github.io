@@ -227,8 +227,8 @@ questions = [
 		"question": "Should there be a strong authoritarian state to protect the working class from foreign nations?",
 		"answers": "2",
 		"results": {
-			"a": "0",
-			"b": "0",
+			"a": "45",
+			"b": "24",
 			"c": "0"
 		},
 		"answer": {
