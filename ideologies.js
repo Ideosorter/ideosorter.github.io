@@ -116,7 +116,7 @@ ideology = [
 		"flag": "flags/mutualist_flag.png"
 	},
 	{
-		"ideology": "You're a National Anarchist",
+		"ideology": "You're a National-Anarchist",
 		"flag": "flags/nam_flag.png"
 	},
 	{
