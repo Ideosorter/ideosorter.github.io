@@ -177,7 +177,7 @@ ideology = [
 		"desc": ""
 	},
 	{
-		"ideology": "You're an National Bolshevik", //Result 36
+		"ideology": "You're a National Bolshevik", //Result 36
 		"flag": "flags/nazbol_flag.png",
 		"desc": ""
 	},
