@@ -208,7 +208,7 @@ ideology = [
 	},
 	{
 		"ideology": "You're a Paleolibertarian", //Result 42
-		"flag": "flags/Paleobert_flag.png",
+		"flag": "flags/paleobert_flag.png",
 		"desc": ""
 	},
 	{
