@@ -4,7 +4,7 @@ ideology = [
 	{
 		"ideology": "You're a Fourth Theorist", //Result 1
 		"flag": "flags/4theory_flag.png",
-		"desc": "Dugin"
+		"desc": ""
 	},
 	{
 		"ideology": "You're an Agorist", //Result 2
