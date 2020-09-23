@@ -13,9 +13,10 @@
 </script>
 <h1>Ideosorter</h1>
 <hr>
-<p class="question" id="id-ideology"></p>
+<p class="result" id="id-ideology"></p>
 <h2> <span class="weight-300"></span></h2>
 <img src="" id="flag">
+<p class="description" id="desc-ideology"></p>
 <script>
 
 (function getUrl() {
@@ -23,7 +24,9 @@
 	var surl = url.split('=');
 	var idn = surl[1]
 	document.getElementById("id-ideology").innerHTML = ideology[idn].ideology;
+	document.getElementById("desc-ideology").innerHTML = ideology[idn].desc;
 	document.getElementById("flag").src = ideology[idn].flag
+	
 	})()
 </script>
 </body>

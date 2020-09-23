@@ -1,5 +1,5 @@
 html {
-    background-color: #bbbbbb;
+    background-color: #000000;
     padding: 0px;
 }
 body {
@@ -7,14 +7,14 @@ body {
     min-height: calc(100vh - 4em);
     margin: 0 auto;
     padding: 2em;
-    background-color: #dddddd;
-    border-color: #eeeeee;
+    background-color: #3b3b3b;
+    border-color: #505050;
     border-left-style: solid;
     border-right-style: solid;
     border-width: 20px;
 }
 p {
-    color: #444444;
+    color: #cccccc;
     font-family: 'Roboto', sans-serif;
     font-size: 16pt;
     line-height: 1;
@@ -26,13 +26,48 @@ p.value-description {
 }
 p.question {
     margin: 16pt auto;
-    color: #333333;
+    color: #cccccc;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     width: 70%;
     min-width: 500pt;
     min-height: 144pt;
-    background-color: #eeeeee;
+    background-color: #000000;
+    padding: 16pt;
+    border-radius: 16pt;
+    font-size: 36pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+p.result {
+    margin: 16pt auto;
+    color: #cccccc;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    width: 70%;
+    min-width: 500pt;
+    min-height: 144pt;
+    padding: 16pt;
+    border-radius: 16pt;
+    font-size: 48pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+p.description {
+    margin: 16pt auto;
+    color: #cccccc;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    width: 70%;
+    min-width: 500pt;
+    min-height: 144pt;
+    background-color: #000000;
     padding: 16pt;
     border-radius: 16pt;
     font-size: 36pt;
@@ -43,7 +78,7 @@ p.question {
 
 }
 h1 {
-    color: #222222;
+    color: #cccccc;
     font-family: 'Montserrat', sans-serif;
     font-size: 72pt;
     text-align: center;
@@ -52,7 +87,7 @@ h1 {
     margin-bottom: 0pt;
 }
 h2 {
-    color: #333333;
+    color: #cccccc;
     font-family: 'Montserrat', sans-serif;
     font-size: 36pt;
     line-height: 36pt;
@@ -76,7 +111,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
 }
 .button {
@@ -118,12 +153,6 @@ img {
     cursor: not-allowed;
     margin: -4px auto;
 }
-div.axis {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 div.bar {
     height: 36pt;
     line-height: 36pt;
@@ -145,46 +174,6 @@ div.text-wrapper {
     line-height: 36pt;
     color: #222222;
     display: inline-block;
-}
-div.equality {
-    background-color: #f44336;
-    text-align: left;
-    border-right-style: solid;
-}
-div.wealth {
-    background-color: #00897b;
-    text-align: right;
-    border-left-style: solid;
-}
-div.liberty {
-    background-color: #ffeb3b;
-    text-align: left;
-    border-right-style: solid;
-}
-div.authority {
-    background-color: #3f51b5;
-    text-align: right;
-    border-left-style: solid;
-}
-div.peace {
-    background-color: #03a9f4;
-    text-align: right;
-    border-left-style: solid;
-}
-div.might {
-    background-color: #ff9800;
-    text-align: left;
-    border-right-style: solid;
-}
-div.progress {
-    background-color: #9c27b0;
-    text-align: right;
-    border-left-style: solid;
-}
-div.tradition {
-    background-color: #8bc34a;
-    text-align: left;
-    border-right-style: solid;
 }
 span.weight-300 {
     font-weight: 300;
