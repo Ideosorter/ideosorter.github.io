@@ -127,7 +127,7 @@ questions = [
     },
     {
         "question": "In your ideal society, would traditional values be upheld?", //Question 9
-		"answers": "9",
+		"answers": "1",
 		"results": {
 			"a": "0",
 			"b": "0",
