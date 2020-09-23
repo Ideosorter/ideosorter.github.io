@@ -232,7 +232,7 @@ ideology = [
 		"desc": ""
 	},
 	{
-		"ideology": "You're an Social Libertarian", //Result 47
+		"ideology": "You're a Social Libertarian", //Result 47
 		"flag": "flags/socbert_flag.png",
 		"desc": ""
 	},
