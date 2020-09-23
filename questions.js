@@ -647,7 +647,7 @@ questions = [
         "question": "Should the state and/or economy be run exclusively by experts?", //Question 46
 		"answers": "1",
 		"results": {
-			"a": "55",
+			"a": "54",
 			"b": "0",
 			"c": "0"
 		},
