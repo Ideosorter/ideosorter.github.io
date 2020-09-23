@@ -155,7 +155,7 @@ questions = [
     },
     {
         "question": "Should the government embrace capitalism or corporatism?", //Question 11
-		"answers": "6",
+		"answers": "4",
 		"results": {
 			"a": "0",
 			"b": "0",
