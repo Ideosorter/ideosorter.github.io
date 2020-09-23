@@ -717,13 +717,13 @@ questions = [
         "question": "Do you think that the nation should be of most importance above all?", //Question 51
 		"answers": "1",
 		"results": {
-			"a": "0",
-			"b": "0",
+			"a": "36",
+			"b": "51",
 			"c": "0"
 		},
 		"answer": {
-			"a": "36",
-			"b": "51",
+			"a": "0",
+			"b": "0",
 			"c": "0"
         }
     },
