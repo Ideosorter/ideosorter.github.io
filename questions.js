@@ -689,13 +689,13 @@ questions = [
         "question": "Should class/nation be the main subject of political discussion, or should it be the Dasein (human essence)?", //Question 49
 		"answers": "9",
 		"results": {
-			"a": "0",
-			"b": "1",
+			"a": "1",
+			"b": "0",
 			"c": "0"
 		},
 		"answer": {
-			"a": "50",
-			"b": "0",
+			"a": "0",
+			"b": "50",
 			"c": "0"
         }
     },
