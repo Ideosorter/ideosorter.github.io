@@ -297,13 +297,13 @@ questions = [
         "question": "Do you think that a completely deregulated, stateless society will lead to a market dominated by worker co-operatives?", //Question 21
 		"answers": "1",
 		"results": {
-			"a": "0",
-			"b": "0",
+			"a": "22",
+			"b": "4",
 			"c": "0"
 		},
 		"answer": {
-			"a": "22",
-			"b": "4",
+			"a": "0",
+			"b": "0",
 			"c": "0"
         }
     },
