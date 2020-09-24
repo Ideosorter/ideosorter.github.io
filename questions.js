@@ -381,13 +381,13 @@ questions = [
         "question": "Should communities be made up of ethnically homogenous populations?", //Question 27
 		"answers": "1",
 		"results": {
-			"a": "0",
-			"b": "0",
+			"a": "34",
+			"b": "33",
 			"c": "0"
 		},
 		"answer": {
-			"a": "34",
-			"b": "33",
+			"a": "0",
+			"b": "0",
 			"c": "0"
         }
     },
