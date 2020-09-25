@@ -213,13 +213,13 @@ questions = [
         "question": "Do you deem your race to be superior above all others?", //Question 15
 		"answers": "1",
 		"results": {
-			"a": "0",
-			"b": "0",
+			"a": "38",
+			"b": "13",
 			"c": "0"
 		},
 		"answer": {
-			"a": "38",
-			"b": "13",
+			"a": "0",
+			"b": "0",
 			"c": "0"
         }
     },

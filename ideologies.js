@@ -63,7 +63,7 @@ ideology = [
 	},
 	{
 		"ideology": "You're a Classical Fascist", //Result 13
-		"flag": "flags/clasfash_flag.png",
+		"flag": "flags/classfash_flag.png",
 		"desc": ""
 	},
 	{
