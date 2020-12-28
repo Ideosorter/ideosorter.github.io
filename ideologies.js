@@ -9,7 +9,7 @@ ideology = [
 	{
 		"ideology": "You're an Agorist", //Result 2
 		"flag": "flags/Agorism_flag.svg",
-		"desc": "Agorism is an ideology concieved by Samuel Edward Konkin III that seeks to establish a society in which all exchanges are voluntary, by the means of engagin in counter-economic activities."
+		"desc": "Agorism is an ideology concieved by Samuel Edward Konkin III that seeks to establish a society in which all exchanges are voluntary, by the means of engaging in counter-economic activities."
 	},
 	{
 		"ideology": "You're an Agrarian Socialist", //Result 3
@@ -19,7 +19,7 @@ ideology = [
 	{
 		"ideology": "You're an Anarcho-Capitalist", //Result 4
 		"flag": "flags/Ancap_flag.svg",
-		"desc": "Anarcho-Capitalism, also called Voluntaryism, is an ideology that advocates for the creation of a stateless society based on property rights and the Non-Agression Priciple."
+		"desc": "Anarcho-Capitalism, also called Voluntaryism, is an ideology that advocates for the creation of a stateless society based on property rights and the Non-Aggression Principle."
 	},
 	{
 		"ideology": "You're an Anarcho-Collectivist", //Result 5
@@ -39,12 +39,12 @@ ideology = [
 	{
 		"ideology": "You're an Anarcho-Primitivist", //Result 8
 		"flag": "flags/Anprim_flag.svg",
-		"desc": ""
+		"desc": "Anarcho-Primitivism is an ideology that advocates for a return to pre-civilization life. It is unique in its opposition to agrculture and pecuary and the embracing of a hunter-gatherer lifestyle"
 	},
 	{
 		"ideology": "You're an Anarcho-Syndicalist",  //Result 9
 		"flag": "flags/Ansynd_flag.svg",
-		"desc": ""
+		"desc": "Anarcho-Syndicalism is an ideology that seeks to use the power of workers' movements to establish a post-capitalist stateless society based on worker ownership of the means of production"
 	},
 	{
 		"ideology": "You're a Bleeding-Heart Libertarian", //Result 10
@@ -54,12 +54,12 @@ ideology = [
 	{
 		"ideology": "You're a Bordigist/Italian Left-Communist", //Result 11
 		"flag": "flags/Bordiga_flag.svg",
-		"desc": ""
+		"desc": "Italian Left Communism is an ideology that deems that "
 	},
 	{
 		"ideology": "You're a Castroist", //Result 12
 		"flag": "flags/Castro_flag.svg",
-		"desc": ""
+		"desc": "Castroism is an ideology "
 	},
 	{
 		"ideology": "You're a Classical Fascist", //Result 13
@@ -74,7 +74,7 @@ ideology = [
 	{
 		"ideology": "You're a Council Communist", //Result 15
 		"flag": "flags/Councom_flag.svg",
-		"desc": ""
+		"desc": "Council Communism is an ideology that deems that a sucessful socialist society must be one managed by workers' councils and not "
 	},
 	{
 		"ideology": "You're a De Leonist", //Result 16
@@ -84,12 +84,12 @@ ideology = [
 	{
 		"ideology": "You're a Democatic Socialist", //Result 17
 		"flag": "flags/Demsoc_flag.svg",
-		"desc": ""
+		"desc": "Democratic Socialism is an ideology that seeks to establish socialism through reform and electoral processes as opposed to revoluitionary means"
 	},
 	{
 		"ideology": "You're a Dengist/Socialist with Chinese Characteristics", //Result 18
 		"flag": "flags/Deng_flag.svg",
-		"desc": ""
+		"desc": "Socialism with Chinese Characteristics is an ideology that deems that a stage of state managed capitalism is necessary to create the conditions necessary for a sucessful socialist society"
 	},
 	{
 		"ideology": "You're a Distributist", //Result 19
@@ -119,7 +119,7 @@ ideology = [
 	{
 		"ideology": "You're a Libertarian Socialist", //Result 24
 		"flag": "flags/Libsoc_flag.svg",
-		"desc": ""
+		"desc": "Libertarian Socialism is an ideology that deems that the means of production should be owned and managed by their workers with the state providing little to no interference in the economy, contrasted to the ideas of state ownership of State Socialism"
 	},
 	{
 		"ideology": "You're a Keynesian Liberal",//Result 25
@@ -144,32 +144,32 @@ ideology = [
 	{
 		"ideology": "You're a Market Socialist", //Result 29
 		"flag": "flags/Marksoc_flag.svg",
-		"desc": ""
+		"desc": "Market socialism is an ideology that combines the socialist ideal of worker ownership of the means of production with the competeition and resource allocation provided by a market economy"
 	},
 	{
 		"ideology": "You're a Minarchist", //Result 30
 		"flag": "flags/Minarch_flag.svg",
-		"desc": ""
+		"desc": "Minarchism is an ideology that deems that the state's sole purposes are to protect its citizens' rights to property, bring criminals to justice and to guard the country's territory against any invasions."
 	},
 	{
 		"ideology": "You're a Marxist–Leninist–Maoist", //Result 31
 		"flag": "flags/MLM_flag.svg",
-		"desc": ""
+		"desc": "Marxism–Leninism–Maoism is an ideology devised by the Communist Party of Peru that synthesizes the ideas of Marxism–Leninism and Maoism, rejecting certain aspects from the latter like the 3 worlds theory."
 	},
 	{
 		"ideology": "You're a Marxist–Leninist", //Result 32
 		"flag": "flags/ML_flag.svg",
-		"desc": ""
+		"desc": "Marxism–Leninism is an ideology that deems that establishing and developing socialism in 1 country is a necessity before exporting the revoltion to neighbouring states, an idea that contrasts with the Trotskyist ideal of permanent revolution."
 	},
 	{
 		"ideology": "You're a Mutualist", //Result 33
 		"flag": "flags/Mutualism_flag.svg",
-		"desc": ""
+		"desc": "Mutualism is an ideology who seeks to establish a stateless society based around a combination of free trade of goods between individuals, as long as a mutual credit bank and mutual aid structures."
 	},
 	{
 		"ideology": "You're a National Anarchist", //Result 34
 		"flag": "flags/Natan_flag.svg",
-		"desc": ""
+		"desc": "National Anarchism is an ideology that seeks to establish a stateless society made up of ethno-communes based on a meritocratic mutualist economic system."
 	},
 	{
 		"ideology": "You're a National Syndicalist", //Result 35
@@ -214,17 +214,17 @@ ideology = [
 	{
 		"ideology": "You're a Paleoonservative", //Result 43
 		"flag": "flags/Paleocon_flag.svg",
-		"desc": ""
+		"desc": "Paleoconservatism is a form of conservatism that orignally manifestated itself in the isolationist factions of American conservatism who opposed the Vietnam war. Paleoconservatives also commonly oppose free global trade, taking a very protectionist approach with strong tarrifs."
 	},
 	{
 		"ideology": "You're a Paternalistic Conservative", //Result 44
 		"flag": "flags/Patcon_flag.svg",
-		"desc": ""
+		"desc": "Paternalistic conservatism is an ideolody that seeks to combine the social democratic principles of regulated capitalism and strong labour unions with traditional values."
 	},
 	{
 		"ideology": "You're a Posadist", //Result 45
 		"flag": "flags/Posadism_flag.svg",
-		"desc": ""
+		"desc": "Posadism is a radically accelerationist form of Trostksyism that deems nuclear destruction of captalist society as a necessity to establish socialism globally (with some help of our alien comrades, of course)"
 	},
 	{
 		"ideology": "You're a Situationist", //Result 46
@@ -234,17 +234,17 @@ ideology = [
 	{
 		"ideology": "You're a Social Libertarian", //Result 47
 		"flag": "flags/Socbert_flag.svg",
-		"desc": ""
+		"desc": "Social Libertarianism is a form of Bleeding-Heart Libertarianism that deems that a universal basic income, combined with maximum individual freedoms, is a necessity to achieve a fair society for all including the most socially disadvantaged"
 	},
 	{
 		"ideology": "You're a Social Democrat", //Result 48
 		"flag": "flags/Socdem_flag.svg",
-		"desc": ""
+		"desc": "Social Democracy is an ideology that seeks to establish a society whereby capitalism is restricted and controlled by the state and strong labour unions in order to achieve bennefitial outcomes to the working class."
 	},
 	{
 		"ideology": "You're a Social Georgist", //Result 49
 		"flag": "flags/Socgeo_flag.svg",
-		"desc": ""
+		"desc": "Social Georgism is an ideology that deems that Georgist principles of public land ownership and land value tax prefectly complement a free market welfarist society, the most prominent advocate of this ideology is Chinese revolutionary and first president of the Republic of China, Sun Yat-Sen"
 	},
 	{
 		"ideology": "You're a Social Nationalist", //Result 50
@@ -254,12 +254,12 @@ ideology = [
 	{
 		"ideology": "You're a State Socialist", //Result 51
 		"flag": "flags/Statesoc_flag.svg",
-		"desc": ""
+		"desc": "State Socialism is an ideology that deems that the means of production should be owned and managed by the state, contrasted to the ideals of Libertarian Socialism"
 	},
 	{
 		"ideology": "You're a Strasserist", //Result 52
 		"flag": "flags/Strasser_flag.svg",
-		"desc": ""
+		"desc": "Strasserism is an ideology popularized by the Strasser brothers that seeks to blend left wing economics with right wing ultrantionalism."
 	},
 	{
 		"ideology": "You're a Syndicalist", //Result 53
@@ -279,11 +279,11 @@ ideology = [
 	{
 		"ideology": "You're a Titoist", //Result 56
 		"flag": "flags/Tito_flag.svg",
-		"desc": ""
+		"desc": "Titoism is an ideology that seeks to combine the vanguardist nature of Leninism with a market socialist economy and worker owned means of production"
 	},
 	{
 		"ideology": "You're a Trotskyist", //Result 57
 		"flag": "flags/Trot_flag.svg",
-		"desc": ""
+		"desc": "Trotskyism is an ideology that deems a permanent revoltuion across the world to be a necessity in establishing socialism, contrasting to the Marxist–Leninist idea of socialism in 1 country"
 	}
 ];
