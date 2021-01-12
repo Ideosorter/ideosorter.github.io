@@ -448,7 +448,7 @@ questions = [
         }
     },
     {
-        "question": "Should the role of this vanguard party be only to educate, or should it be some form of political leadership?", //Question 32
+        "question": "Should the role of this vanguard party be only to educate? As opposed to be ingsome form of political leadership.", //Question 32
 		"answers": "1",
 		"results": {
 			"a": "12",
@@ -518,7 +518,7 @@ questions = [
         }
     },
     {
-        "question": "o you think that the nation should be of most importance above all?", //Question 37
+        "question": "Do you think that the nation should be of most importance above all?", //Question 37
 		"answers": "1",
 		"results": {
 			"a": "36",
