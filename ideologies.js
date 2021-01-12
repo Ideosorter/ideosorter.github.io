@@ -144,7 +144,7 @@ ideology = [
 	{
 		"ideology": "You're a Market Socialist", //Result 29
 		"flag": "flags/Marksoc_flag.svg",
-		"desc": "Market socialism is an ideology that combines the socialist ideal of worker ownership of the means of production with the competeition and resource allocation provided by a market economy"
+		"desc": "Market socialism is an ideology that combines the socialist ideal of worker ownership of the means of production with the competition and resource allocation provided by a market economy"
 	},
 	{
 		"ideology": "You're a Minarchist", //Result 30
