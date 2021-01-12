@@ -48,7 +48,7 @@ ideology = [
 	},
 	{
 		"ideology": "You're a Bleeding-Heart Libertarian", //Result 10
-		"flag": "flags/Bhl_flag.svg",
+		"flag": "flags/BHL_flag.svg",
 		"desc": "Bleeding-Heart Libertarianism is an ideology that deems that an expansion of civil liberties will be the most benefitial to the disadvanatged"
 	},
 	{
@@ -104,7 +104,7 @@ ideology = [
 	{
 		"ideology": "You're a Georgist", //Result 21
 		"flag": "flags/Georgism_flag.svg",
-		"desc": ""
+		"desc": "Georgism is an ideology that deems that for a truly free market to exist first the monopoly on land must be broken. It advocates for a land value tax that if implemented properly will in essence decomofify land ownership"
 	},
 	{
 		"ideology": "You're a Left-Rothbardian", //Result 22
