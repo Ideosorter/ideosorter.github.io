@@ -448,7 +448,7 @@ questions = [
         }
     },
     {
-        "question": "Should the role of this vanguard party be only to educate? As opposed to be ingsome form of political leadership.", //Question 32
+        "question": "Should the role of this vanguard party be only to educate? As opposed to being some form of political leadership.", //Question 32
 		"answers": "1",
 		"results": {
 			"a": "12",
