@@ -15,12 +15,14 @@
 	<h2> <span class="weight-300"></span></h2>
 	<img src="" id="flag">
 	<p class="description" id="desc-ideology"></p>
-	<script type="application/javascript" src="scripts/json/ideologies.js"></script>
+	<script type="application/javascript" src="scripts/json/results.js"></script>
 	<script>
 
 		(function getUrl() {
 			var iid = window.location.search.split("=")[1]
+			console.log(iid)
 			document.getElementById("id-ideology").innerHTML = results[iid].result;
+			console.log(results[iid])
 			document.getElementById("desc-ideology").innerHTML = results[iid].desc;
 			document.getElementById("flag").src = "flags/" + iid + "_flag.svg"
 
