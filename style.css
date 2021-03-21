@@ -129,24 +129,6 @@ img {
     height: auto;
 }
 
-.qbutton {
-    background-color: #2196f3;
-    font-family: 'Montserrat', sans-serif;
-    border: none;
-    border-radius: 8pt;
-    color: white;
-    padding: 8pt;
-    width: 50%;
-    min-width: 500pt;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 24pt;
-    margin: -2px auto;
-    cursor: pointer;
-    display: none;
-}
-
 .button {
     background-color: #2196f3;
     font-family: 'Montserrat', sans-serif;
