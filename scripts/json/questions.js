@@ -46,8 +46,8 @@ questions = { // don't change this line
             "results": {
             },
             "nextquestion": {
-                "yes": "scope_of_government2",
-                "no": "scope_of_government1",
+                "conditional": "scope_of_government2",
+                "unconditional": "scope_of_government1",
             }
         },
         "scope_of_government1": { //not here
@@ -57,13 +57,13 @@ questions = { // don't change this line
                 "no",
                 "nostate"
             ],
-            "results": [
-            ],
-            "nextquestion": [
-                "watchman_state",
-                "tradvals",
-                "counter_economics"
-            ]
+            "results": {
+            },
+            "nextquestion": {
+                "yes": "watchman_state",
+                "no": "tradvals",
+                "nostate": "counter_economics"
+            }
         },
         "watchman_state": {
             "question": "Should the government purely be a night watchman state?",
@@ -98,8 +98,8 @@ questions = { // don't change this line
                 "noneed"
             ],
             "results": {
-                "yes": "socbert",
-                "no": "bhl",
+                "welfare": "socbert",
+                "noneed": "bhl",
             },
             "nextquestion": {
             }
@@ -152,8 +152,8 @@ questions = { // don't change this line
             "results": {
             },
             "nextquestion": {
-                "yes": "markreg",
-                "no": "unions_vs_state",
+                "capitalism": "markreg",
+                "corporatism": "unions_vs_state",
             }
         },
         "markreg": {
@@ -176,10 +176,10 @@ questions = { // don't change this line
                 "state"
             ],
             "results": {
-                "yes": "natsynd",
+                "unions": "natsynd",
             },
             "nextquestion": {
-                "no": "clergygov",
+                "state": "clergygov",
             }
         },
         "clergygov": {
@@ -403,8 +403,8 @@ questions = { // don't change this line
             "results": {
             },
             "nextquestion": {
-                "yes": "rev_ed",
-                "no": "vanguard",
+                "workers": "rev_ed",
+                "state": "vanguard",
             }
         },
         "vanguard": {
@@ -622,10 +622,10 @@ questions = { // don't change this line
                 "revolution"
             ],
             "results": {
-                "yes": "demsoc",
+                "electoralism": "demsoc",
             },
             "nextquestion": {
-                "no": "soc_directstate2",
+                "revolution": "soc_directstate2",
             }
         },
         "soc_directstate2": {
@@ -637,8 +637,8 @@ questions = { // don't change this line
             "results": {
             },
             "nextquestion": {
-                "yes": "agriculture_industrial",
-                "no": "esobullshit",
+                "workers": "agriculture_industrial",
+                "state": "esobullshit",
             }
         },
         "esobullshit": {
@@ -648,10 +648,10 @@ questions = { // don't change this line
                 "classnation"
             ],
             "results": {
-                "yes": "4theory",
+                "dasein": "4theory",
             },
             "nextquestion": {
-                "no": "bankjews",
+                "classnation": "bankjews",
             }
         },
         "bankjews": {
