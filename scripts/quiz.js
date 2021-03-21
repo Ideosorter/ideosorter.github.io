@@ -4,7 +4,7 @@ function init_question() {
     document.getElementById("question-text").innerHTML = questions[questionId].question
     var buttonHTML = ""
     for(var i = 0; i<questions[questionId].answers.length; i++) {
-        buttonHTML += "<button class=\"button\" onclick=\"next_question(\'" + i + "\')\" style=\"background-color: " + buttons[questions[questionId].answers[i]].color + ";\" id=\"Answer1\">" + buttons[questions[questionId].answers[i]].text + "</button><br>"
+        buttonHTML += "<button class=\"button\" onclick=\"next_question(\'" + questions[questionId].answers[i] + "\')\" style=\"background-color: " + buttons[questions[questionId].answers[i]].color + ";\" id=\"Answer1\">" + buttons[questions[questionId].answers[i]].text + "</button><br>"
     }
     document.getElementById("buttonholder").innerHTML = buttonHTML
 }
