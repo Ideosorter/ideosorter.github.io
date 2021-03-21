@@ -1,225 +1,34 @@
 <head>
-<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
-<link href='style.css' rel='stylesheet' type='text/css'>
-<title>Ideosorter</title>
-<link rel="icon" type="x-icon" href="icon.png">
-<link rel="shortcut icon" type="x-icon" href="icon.png">
-<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<title>Ideosorter</title>
+	<link rel="icon" type="x-icon" href="icon.png">
+	<link rel="shortcut icon" type="x-icon" href="icon.png">
+	<meta charset="utf-8">
 </head>
+
 <body>
-<script type="application/javascript"
-        src="questions.js">
-</script>
-<h1>Ideosorter</h1>
-<hr>
-<p class="question" id="question-text"></p>
-<button class="button" onclick="next_question_1()" style="background-color: #1b5e20"; id="Answer1">Yes</button> <br>
-<button class="button" onclick="next_question_2()" style="background-color: #b71c1c"; id="Answer2">No</button> <br>
-<button class="button" onclick="next_question_3()" style="background-color: #000000"; id="Answer3">The state shouldn't exist</button> <br>
-<button class="button" onclick="next_question_1()" style="background-color: #0a8f00"; id="Answer4">Conditional</button> <br>
-<button class="button" onclick="next_question_2()" style="background-color: #e0d500"; id="Answer5">Unconditional</button> <br>
-<button class="button" onclick="next_question_1()" style="background-color: #e0d500"; id="Answer6">Capitalism</button> <br>
-<button class="button" onclick="next_question_2()" style="background-color: #75530e"; id="Answer7">Corporatism</button> <br>
-<button class="button" onclick="next_question_1()" style="background-color: #ff0000"; id="Answer8">Workers</button> <br>
-<button class="button" onclick="next_question_1()" style="background-color: #ff0000"; id="Answer9">Unions</button> <br>
-<button class="button" onclick="next_question_2()" style="background-color: #852013"; id="Answer10">State</button> <br>
-<button class="button" onclick="next_question_1()" style="background-color: #c210ad"; id="Answer11">Electoralism</button> <br>
-<button class="button" onclick="next_question_2()" style="background-color: #ff0000"; id="Answer12">Revolution</button> <br>
-<button class="button" onclick="next_question_1()" style="background-color: #ff0000"; id="Answer13">Welfare</button> <br>
-<button class="button" onclick="next_question_2()" style="background-color: #f5dd00"; id="Answer14">Not needed</button> <br>
-<button class="button" onclick="next_question_1()" style="background-color: #000000"; id="Answer15">Dasein</button> <br>
-<button class="button" onclick="next_question_2()" style="background-color: #cd0000"; id="Answer16">Class/Nation</button> <br>
-<!-- JavaScript for the test itself -->
-<script>
-    var qn = 0; // Question number
-    init_question();
-    function init_question() {
-        document.getElementById("question-text").innerHTML = questions[qn].question;
-		var qs = questions[qn].answers
-		if (qs == 1){ // Answer 1 (Yes) and Answer 2 (No) are displayed
-			document.getElementById("Answer1").style.display = 'block';
-			document.getElementById("Answer2").style.display = 'block';
-			document.getElementById("Answer3").style.display = 'none';
-			document.getElementById("Answer4").style.display = 'none';
-			document.getElementById("Answer5").style.display = 'none';
-			document.getElementById("Answer6").style.display = 'none';
-			document.getElementById("Answer7").style.display = 'none';
-			document.getElementById("Answer8").style.display = 'none';
-			document.getElementById("Answer9").style.display = 'none';
-			document.getElementById("Answer10").style.display = 'none';
-			document.getElementById("Answer11").style.display = 'none';
-			document.getElementById("Answer12").style.display = 'none';
-			document.getElementById("Answer13").style.display = 'none';
-			document.getElementById("Answer14").style.display = 'none';
-			document.getElementById("Answer15").style.display = 'none';
-			document.getElementById("Answer16").style.display = 'none';
-		}if (qs == 2){ // Answer 1 (Yes), Answer 2 (No) and Answer 3 (The state shouldn't exist) are displayed
-			document.getElementById("Answer1").style.display = 'block';
-			document.getElementById("Answer2").style.display = 'block';
-			document.getElementById("Answer3").style.display = 'block';
-			document.getElementById("Answer4").style.display = 'none';
-			document.getElementById("Answer5").style.display = 'none';
-			document.getElementById("Answer6").style.display = 'none';
-			document.getElementById("Answer7").style.display = 'none';
-			document.getElementById("Answer8").style.display = 'none';
-			document.getElementById("Answer9").style.display = 'none';
-			document.getElementById("Answer10").style.display = 'none';
-			document.getElementById("Answer11").style.display = 'none';
-			document.getElementById("Answer12").style.display = 'none';
-			document.getElementById("Answer13").style.display = 'none';
-			document.getElementById("Answer14").style.display = 'none';
-			document.getElementById("Answer15").style.display = 'none';
-			document.getElementById("Answer16").style.display = 'none';
-		}if (qs == 3){ // Answer 4 (Conditional) and Answer 5 (Unconditional) are displayed
-			document.getElementById("Answer1").style.display = 'none';
-			document.getElementById("Answer2").style.display = 'none';
-			document.getElementById("Answer3").style.display = 'none';
-			document.getElementById("Answer4").style.display = 'block';
-			document.getElementById("Answer5").style.display = 'block';
-			document.getElementById("Answer6").style.display = 'none';
-			document.getElementById("Answer7").style.display = 'none';
-			document.getElementById("Answer8").style.display = 'none';
-			document.getElementById("Answer9").style.display = 'none';
-			document.getElementById("Answer10").style.display = 'none';
-			document.getElementById("Answer11").style.display = 'none';
-			document.getElementById("Answer12").style.display = 'none';
-			document.getElementById("Answer13").style.display = 'none';
-			document.getElementById("Answer14").style.display = 'none';
-			document.getElementById("Answer15").style.display = 'none';
-			document.getElementById("Answer16").style.display = 'none';
-		}if (qs == 4){ // Answer 6 (Capitalism) and Answer 7 (Corporatism) are displayed
-			document.getElementById("Answer1").style.display = 'none';
-			document.getElementById("Answer2").style.display = 'none';
-			document.getElementById("Answer3").style.display = 'none';
-			document.getElementById("Answer4").style.display = 'none';
-			document.getElementById("Answer5").style.display = 'none';
-			document.getElementById("Answer6").style.display = 'block';
-			document.getElementById("Answer7").style.display = 'block';
-			document.getElementById("Answer8").style.display = 'none';
-			document.getElementById("Answer9").style.display = 'none';
-			document.getElementById("Answer10").style.display = 'none';
-			document.getElementById("Answer11").style.display = 'none';
-			document.getElementById("Answer12").style.display = 'none';
-			document.getElementById("Answer13").style.display = 'none';
-			document.getElementById("Answer14").style.display = 'none';
-			document.getElementById("Answer15").style.display = 'none';
-			document.getElementById("Answer16").style.display = 'none';
-		}if (qs == 5){ // Answer 8 (Workers) and Answer 10 (State) are displayed
-			document.getElementById("Answer1").style.display = 'none';
-			document.getElementById("Answer2").style.display = 'none';
-			document.getElementById("Answer3").style.display = 'none';
-			document.getElementById("Answer4").style.display = 'none';
-			document.getElementById("Answer5").style.display = 'none';
-			document.getElementById("Answer6").style.display = 'none';
-			document.getElementById("Answer7").style.display = 'none';
-			document.getElementById("Answer8").style.display = 'block';
-			document.getElementById("Answer9").style.display = 'none';
-			document.getElementById("Answer10").style.display = 'block';
-			document.getElementById("Answer11").style.display = 'none';
-			document.getElementById("Answer12").style.display = 'none';
-			document.getElementById("Answer13").style.display = 'none';
-			document.getElementById("Answer14").style.display = 'none';
-			document.getElementById("Answer15").style.display = 'none';
-			document.getElementById("Answer16").style.display = 'none';
-		}if (qs == 6){ // Answer 9 (Unions) and Answer 10 (State) are displayed
-			document.getElementById("Answer1").style.display = 'none';
-			document.getElementById("Answer2").style.display = 'none';
-			document.getElementById("Answer3").style.display = 'none';
-			document.getElementById("Answer4").style.display = 'none';
-			document.getElementById("Answer5").style.display = 'none';
-			document.getElementById("Answer6").style.display = 'none';
-			document.getElementById("Answer7").style.display = 'none';
-			document.getElementById("Answer8").style.display = 'none';
-			document.getElementById("Answer9").style.display = 'block';
-			document.getElementById("Answer10").style.display = 'block';
-			document.getElementById("Answer11").style.display = 'none';
-			document.getElementById("Answer12").style.display = 'none';
-			document.getElementById("Answer13").style.display = 'none';
-			document.getElementById("Answer14").style.display = 'none';
-			document.getElementById("Answer15").style.display = 'none';
-			document.getElementById("Answer16").style.display = 'none';
-		}if (qs == 7){// Answer 11 (Electoralism) and Answer 12 (Revolution) are displayed
-			document.getElementById("Answer1").style.display = 'none';
-			document.getElementById("Answer2").style.display = 'none';
-			document.getElementById("Answer3").style.display = 'none';
-			document.getElementById("Answer4").style.display = 'none';
-			document.getElementById("Answer5").style.display = 'none';
-			document.getElementById("Answer6").style.display = 'none';
-			document.getElementById("Answer7").style.display = 'none';
-			document.getElementById("Answer8").style.display = 'none';
-			document.getElementById("Answer9").style.display = 'none';
-			document.getElementById("Answer10").style.display = 'none';
-			document.getElementById("Answer11").style.display = 'block';
-			document.getElementById("Answer12").style.display = 'block';
-			document.getElementById("Answer13").style.display = 'none';
-			document.getElementById("Answer14").style.display = 'none';
-			document.getElementById("Answer15").style.display = 'none';
-			document.getElementById("Answer16").style.display = 'none';
-		}if (qs == 8){// Answer 13 (Welfare) and Answer 14 (Not needed) are displayed
-			document.getElementById("Answer1").style.display = 'none';
-			document.getElementById("Answer2").style.display = 'none';
-			document.getElementById("Answer3").style.display = 'none';
-			document.getElementById("Answer4").style.display = 'none';
-			document.getElementById("Answer5").style.display = 'none';
-			document.getElementById("Answer6").style.display = 'none';
-			document.getElementById("Answer7").style.display = 'none';
-			document.getElementById("Answer8").style.display = 'none';
-			document.getElementById("Answer9").style.display = 'none';
-			document.getElementById("Answer10").style.display = 'none';
-			document.getElementById("Answer11").style.display = 'none';
-			document.getElementById("Answer12").style.display = 'none';
-			document.getElementById("Answer13").style.display = 'block';
-			document.getElementById("Answer14").style.display = 'block';
-			document.getElementById("Answer15").style.display = 'none';
-			document.getElementById("Answer16").style.display = 'none';
-		}if (qs == 9){// Answer 15 (Dasein) and Answer 16 (Class/Nation) are displayed
-			document.getElementById("Answer1").style.display = 'none';
-			document.getElementById("Answer2").style.display = 'none';
-			document.getElementById("Answer3").style.display = 'none';
-			document.getElementById("Answer4").style.display = 'none';
-			document.getElementById("Answer5").style.display = 'none';
-			document.getElementById("Answer6").style.display = 'none';
-			document.getElementById("Answer7").style.display = 'none';
-			document.getElementById("Answer8").style.display = 'none';
-			document.getElementById("Answer9").style.display = 'none';
-			document.getElementById("Answer10").style.display = 'none';
-			document.getElementById("Answer11").style.display = 'none';
-			document.getElementById("Answer12").style.display = 'none';
-			document.getElementById("Answer13").style.display = 'none';
-			document.getElementById("Answer14").style.display = 'none';
-			document.getElementById("Answer15").style.display = 'block';
-			document.getElementById("Answer16").style.display = 'block';
-		}
-    }
-    function next_question_1() { //Returns the result of the first answer
-		var res = questions[qn].results.a;
-		if (res == 0){
-			var ans = questions[qn].answer.a;
-			qn = ans;
-			init_question()
-		}else{
-			location.href = 'results.html' + '?=' + res
-		}
-    }
-	    function next_question_2() { //Returns the result of the second answer
-		var res = questions[qn].results.b;
-		if (res == 0){
-			var ans = questions[qn].answer.b;
-			qn = ans;
-			init_question()
-		}else{
-			location.href = 'results.html' + '?=' + res
-		}
-    }
-	    function next_question_3() { //Returns the result of the third answer
-		var res = questions[qn].results.c;
-		if (res == 0){
-			var ans = questions[qn].answer.c;
-			qn = ans;
-			init_question()
-		}else{
-			location.href = 'results.html' + '?=' + res
-		}
-    }
-</script>
+	<h1>Ideosorter</h1>
+	<hr>
+	<p class="question" id="question-text"></p>
+	<!-- the br tags are not neccessary if you do it in css iirc -->
+	<button class="button" onclick="next_question(0)" style="background-color: #1b5e20" id="Answer1">Yes</button><br>
+	<button class="button" onclick="next_question(1)" style="background-color: #b71c1c" id="Answer2">No</button><br>
+	<button class="button" onclick="next_question(2)" style="background-color: #000000" id="Answer3">The state shouldn"t exist</button><br>
+	<button class="button" onclick="next_question(0)" style="background-color: #0a8f00" id="Answer4">Conditional</button><br>
+	<button class="button" onclick="next_question(1)" style="background-color: #e0d500" id="Answer5">Unconditional</button><br>
+	<button class="button" onclick="next_question(0)" style="background-color: #e0d500" id="Answer6">Capitalism</button><br>
+	<button class="button" onclick="next_question(1)" style="background-color: #75530e" id="Answer7">Corporatism</button><br>
+	<button class="button" onclick="next_question(0)" style="background-color: #ff0000" id="Answer8">Workers</button><br>
+	<button class="button" onclick="next_question(0)" style="background-color: #ff0000" id="Answer9">Unions</button><br>
+	<button class="button" onclick="next_question(1)" style="background-color: #852013" id="Answer10">State</button><br>
+	<button class="button" onclick="next_question(0)" style="background-color: #c210ad" id="Answer11">Electoralism</button><br>
+	<button class="button" onclick="next_question(1)" style="background-color: #ff0000" id="Answer12">Revolution</button><br>
+	<button class="button" onclick="next_question(0)" style="background-color: #ff0000" id="Answer13">Welfare</button><br>
+	<button class="button" onclick="next_question(1)" style="background-color: #f5dd00" id="Answer14">Not needed</button><br>
+	<button class="button" onclick="next_question(0)" style="background-color: #000000" id="Answer15">Dasein</button><br>
+	<button class="button" onclick="next_question(1)" style="background-color: #cd0000" id="Answer16">Class/Nation</button><br>
+
+	<script type="application/javascript" src="questions.js"></script>
+	<script type="application/javascript" src="quiz.js"></script>
 </body>

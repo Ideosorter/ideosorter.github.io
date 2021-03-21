@@ -1,758 +1,758 @@
-questions = [
-    {
-        "question": "Should Private Property exist?", //Question 0
-		"answers": "1",
-		"results": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "1",
-			"b": "24",
-			"c": "0"
-        }
+questions = {
+    "private_property": {
+        "question": "Should Private Property exist?",
+        "answers": 1,
+        "results": [
+            null,
+            null,
+            null
+        ],
+        "answer": [
+            "theo",
+            "market",
+            null
+        ]
     },
-    {
-        "question": "Should society be run by intermediaries to a deity?", //Question 1
-		"answers": "1",
-		"results": {
-			"a": "55",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "2",
-			"c": "0"
-        }
+    "theo": {
+        "question": "Should society be run by intermediaries to a deity?",
+        "answers": 1,
+        "results": [
+            "theocracy",
+            null,
+            null
+        ],
+        "answer": [
+            null,
+            "distributism",
+            null
+        ]
     },
-    {
-        "question": "Should private property be made as widely owned as possible?", //Question 2
-		"answers": "1",
-		"results": {
-			"a": "19",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "3",
-			"c": "0"
-        }
+    "distributism": {
+        "question": "Should private property be made as widely owned as possible?",
+        "answers": 1,
+        "results": [
+            "distributism",
+            null,
+            null
+        ],
+        "answer": [
+            null,
+            "conditional_land_ownership",
+            null
+        ]
     },
-    {
-        "question": "Should land ownership be conditional or unconditional?", //Question 3
-		"answers": "3",
-		"results": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "22",
-			"b": "4",
-			"c": "0"
-        }
+    "conditional_land_ownership": {
+        "question": "Should land ownership be conditional or unconditional?",
+        "answers": 3,
+        "results": [
+            null,
+            null,
+            null
+        ],
+        "answer": [
+            "scope_of_government2",
+            "scope_of_government1",
+            null
+        ]
     },
-    {
-        "question": "Should the scope of government be limited?", //Question 4
-		"answers": "2",
-		"results": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "5",
-			"b": "9",
-			"c": "20"
-        }
+    "scope_of_government1": {
+        "question": "Should the scope of government be limited?",
+        "answers": 2,
+        "results": [
+            null,
+            null,
+            null
+        ],
+        "answer": [
+            "watchman_state",
+            "tradvals",
+            "counter_economics"
+        ]
     },
-    {
-        "question": "Should the government purely be a night watchman state?", //Question 5
-		"answers": "1",
-		"results": {
-			"a": "30",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "6",
-			"c": "0"
-        }
+    "watchman_state": {
+        "question": "Should the government purely be a night watchman state?",
+        "answers": 1,
+        "results": [
+            "minarch",
+            null,
+            null
+        ],
+        "answer": [
+            null,
+            "welfare",
+            null
+        ]
     },
-    {
-        "question": "Should there be a focus on helping the disadvantaged?", //Question 6
-		"answers": "1",
-		"results": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "7",
-			"b": "8",
-			"c": "0"
-        }
+    "welfare": {
+        "question": "Should there be a focus on helping the disadvantaged?",
+        "answers": 1,
+        "results": [
+            null,
+            null,
+            null
+        ],
+        "answer": [
+            "welfare_needed",
+            "limited_gov_tradvals",
+            null
+        ]
     },
-    {
-        "question": "Would welfare be needed to help the disadvantaged under a deregulated market economy?", //Question 7
-		"answers": "8",
-		"results": {
-			"a": "47",
-			"b": "10",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-        }
+    "welfare_needed": {
+        "question": "Would welfare be needed to help the disadvantaged under a deregulated market economy?",
+        "answers": 8,
+        "results": [
+            "socbert",
+            "bhl",
+            null
+        ],
+        "answer": [
+            null,
+            null,
+            null
+        ]
     },
-    {
-        "question": "Do you think a more limited government would lead to a resurgence in traditional values?", //Question 8
-		"answers": "1",
-		"results": {
-			"a": "42",
-			"b": "23",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-        }
+    "limited_gov_tradvals": {
+        "question": "Do you think a more limited government would lead to a resurgence in traditional values?",
+        "answers": 1,
+        "results": [
+            "paleobert",
+            "libert",
+            null
+        ],
+        "answer": [
+            null,
+            null,
+            null
+        ]
     },
-    {
-        "question": "In your ideal society, would traditional values be upheld?", //Question 9
-		"answers": "1",
-		"results": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "10",
-			"b": "18",
-			"c": "0"
-        }
+    "tradvals": {
+        "question": "In your ideal society, would traditional values be upheld?",
+        "answers": 1,
+        "results": [
+            null,
+            null,
+            null
+        ],
+        "answer": [
+            "tradauthstate",
+            "govbasicneeds",
+            null
+        ]
     },
-    {
-        "question": "Do you deem an authoritarian state necessary to secure the values and sovereignty of your nation?", //Question 10
-		"answers": "1",
-		"results": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "11",
-			"b": "16",
-			"c": "0"
-        }
+    "tradauthstate": {
+        "question": "Do you deem an authoritarian state necessary to secure the values and sovereignty of your nation?",
+        "answers": 1,
+        "results": [
+            null,
+            null,
+            null
+        ],
+        "answer": [
+            "corp_cap",
+            "strong_safety_net",
+            null
+        ]
     },
-    {
-        "question": "Should the government embrace capitalism or corporatism?", //Question 11
-		"answers": "4",
-		"results": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "12",
-			"b": "13",
-			"c": "0"
-        }
+    "corp_cap": {
+        "question": "Should the government embrace capitalism or corporatism?",
+        "answers": 4,
+        "results": [
+            null,
+            null,
+            null
+        ],
+        "answer": [
+            "markreg",
+            "unions_vs_state",
+            null
+        ]
     },
-    {
-        "question": "Should the market be closely regulated?", //Question 12
-		"answers": "1",
-		"results": {
-			"a": "50",
-			"b": "37",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-        }
+    "markreg": {
+        "question": "Should the market be closely regulated?",
+        "answers": 1,
+        "results": [
+            "socnat",
+            "nazcap",
+            null
+        ],
+        "answer": [
+            null,
+            null,
+            null
+        ]
     },
-    {
-        "question": "Should the economy by organized by unions, or by the state?", //Question 13
-		"answers": "6",
-		"results": {
-			"a": "35",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "14",
-			"c": "0"
-        }
+    "unions_vs_state": {
+        "question": "Should the economy by organized by unions, or by the state?",
+        "answers": 6,
+        "results": [
+            "natsynd",
+            null,
+            null
+        ],
+        "answer": [
+            null,
+            "clergygov",
+            null
+        ]
     },
-    {
-        "question": "Should the clergy be a part of government?", //Question 14
-		"answers": "1",
-		"results": {
-			"a": "14",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "15",
-			"c": "0"
-        }
+    "clergygov": {
+        "question": "Should the clergy be a part of government?",
+        "answers": 1,
+        "results": [
+            "clerfash",
+            null,
+            null
+        ],
+        "answer": [
+            null,
+            "racesuperior",
+            null
+        ]
     },
-    {
-        "question": "Do you deem your race to be superior above all others?", //Question 15
-		"answers": "1",
-		"results": {
-			"a": "38",
-			"b": "13",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-        }
+    "racesuperior": {
+        "question": "Do you deem your race to be superior above all others?",
+        "answers": 1,
+        "results": [
+            "nazi",
+            "fascism",
+            null
+        ],
+        "answer": [
+            null,
+            null,
+            null
+        ]
     },
-    {
-        "question": "Should there be a strong social safety net for the disadvantaged in society?", //Question 16
-		"answers": "1",
-		"results": {
-			"a": "44",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "17",
-			"c": "0"
-        }
+    "strong_safety_net": {
+        "question": "Should there be a strong social safety net for the disadvantaged in society?",
+        "answers": 1,
+        "results": [
+            "patcon",
+            null,
+            null
+        ],
+        "answer": [
+            null,
+            "intervgov",
+            null
+        ]
     },
-    {
-        "question": "Should the government intervene in wars that do not directly interfere with your country's national sovereignty?", //Question 17
-		"answers": "1",
-		"results": {
-			"a": "39",
-			"b": "43",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-        }
+    "intervgov": {
+        "question": "Should the government intervene in wars that do not directly interfere with your country's national sovereignty?",
+        "answers": 1,
+        "results": [
+            "neocon",
+            "paleocon",
+            null
+        ],
+        "answer": [
+            null,
+            null,
+            null
+        ]
     },
-    {
-        "question": "Should the government provide the basic necessities to its citizens?", //Question 18
-		"answers": "1",
-		"results": {
-			"a": "48",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "19",
-			"c": "0"
-        }
+    "govbasicneeds": {
+        "question": "Should the government provide the basic necessities to its citizens?",
+        "answers": 1,
+        "results": [
+            "socdem",
+            null,
+            null
+        ],
+        "answer": [
+            null,
+            "econreg",
+            null
+        ]
     },
-    {
-        "question": "Should the economy be tightly regulated?", //Question 19
-		"answers": "1",
-		"results": {
-			"a": "25",
-			"b": "40",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-        }
+    "econreg": {
+        "question": "Should the economy be tightly regulated?",
+        "answers": 1,
+        "results": [
+            "lib",
+            "neolib",
+            null
+        ],
+        "answer": [
+            null,
+            null,
+            null
+        ]
     },
-    {
-        "question": "Should counter-economics be the focus of bringing about an ideal society?", //Question 20
-		"answers": "1",
-		"results": {
-			"a": "2",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "21",
-			"c": "0"
-        }
+    "counter_economics": {
+        "question": "Should counter-economics be the focus of bringing about an ideal society?",
+        "answers": 1,
+        "results": [
+            "agorism",
+            null,
+            null
+        ],
+        "answer": [
+            null,
+            "coop_ancap",
+            null
+        ]
     },
-    {
-        "question": "Do you think that a completely deregulated, stateless society will lead to a market dominated by worker co-operatives?", //Question 21
-		"answers": "1",
-		"results": {
-			"a": "22",
-			"b": "4",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-        }
+    "coop_ancap": {
+        "question": "Do you think that a completely deregulated, stateless society will lead to a market dominated by worker co-operatives?",
+        "answers": 1,
+        "results": [
+            "leftroth",
+            "ancap",
+            null
+        ],
+        "answer": [
+            null,
+            null,
+            null
+        ]
     },
-    {
-        "question": "Should the scope of government be limited?", //Question 22
-		"answers": "2",
-		"results": {
-			"a": "20",
-			"b": "0",
-			"c": "7"
-		},
-		"answer": {
-			"a": "0",
-			"b": "23",
-			"c": "0"
-        }
+    "scope_of_government2": {
+        "question": "Should the scope of government be limited?",
+        "answers": 2,
+        "results": [
+            "geolib",
+            null,
+            "angeo"
+        ],
+        "answer": [
+            null,
+            "landwelfare",
+            null
+        ]
     },
-    {
-        "question": "Should the revenue from land value taxes be put primarily towards welfare?", //Question 23
-		"answers": "1",
-		"results": {
-			"a": "49",
-			"b": "21",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-        }
+    "landwelfare": {
+        "question": "Should the revenue from land value taxes be put primarily towards welfare?",
+        "answers": 1,
+        "results": [
+            "socgeo",
+            "georgism",
+            null
+        ],
+        "answer": [
+            null,
+            null,
+            null
+        ]
     },
-    {
-        "question": "Should the market mechanism drive the allocation of goods?", //Question 24
-		"answers": "1",
-		"results": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "25",
-			"b": "28",
-			"c": "0"
-        }
+    "market": {
+        "question": "Should the market mechanism drive the allocation of goods?",
+        "answers": 1,
+        "results": [
+            null,
+            null,
+            null
+        ],
+        "answer": [
+            "statesoc",
+            "marx",
+            null
+        ]
     },
-    {
-        "question": "Should there be a strong authoritarian state to protect the working class from foreign nations?", //Question 25
-		"answers": "2",
-		"results": {
-			"a": "56",
-			"b": "29",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "0",
-			"c": "26"
-        }
+    "statesoc": {
+        "question": "Should there be a strong authoritarian state to protect the working class from foreign nations?",
+        "answers": 2,
+        "results": [
+            "tito",
+            "marksoc",
+            null
+        ],
+        "answer": [
+            null,
+            null,
+            "mutualaid"
+        ]
     },
-    {
-        "question": "Should the economy be based around the principles of mutual aid?", //Question 26
-		"answers": "1",
-		"results": {
-			"a": "0",
-			"b": "27",
-			"c": "0"
-		},
-		"answer": {
-			"a": "27",
-			"b": "0",
-			"c": "0"
-        }
+    "mutualaid": {
+        "question": "Should the economy be based around the principles of mutual aid?",
+        "answers": 1,
+        "results": [
+            null,
+            "lwma",
+            null
+        ],
+        "answer": [
+            "racism",
+            null,
+            null
+        ]
     },
-    {
-        "question": "Should communities be made up of ethnically homogenous populations?", //Question 27
-		"answers": "1",
-		"results": {
-			"a": "34",
-			"b": "33",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-        }
+    "racism": {
+        "question": "Should communities be made up of ethnically homogenous populations?",
+        "answers": 1,
+        "results": [
+            "natan",
+            "mutualism",
+            null
+        ],
+        "answer": [
+            null,
+            null,
+            null
+        ]
     },
-    {
-        "question": "Should the goal of our society be to move towards a classless, moneyless and stateless society?", //Question 28
-		"answers": "1",
-		"results": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "29",
-			"b": "46",
-			"c": "0"
-        }
+    "marx": {
+        "question": "Should the goal of our society be to move towards a classless, moneyless and stateless society?",
+        "answers": 1,
+        "results": [
+            null,
+            null,
+            null
+        ],
+        "answer": [
+            "transstate",
+            "techno",
+            null
+        ]
     },
-    {
-        "question": "Is a transitory state necessary to reach this goal?", //Question 29
-		"answers": "1",
-		"results": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "30",
-			"b": "43",
-			"c": "0"
-        }
+    "transstate": {
+        "question": "Is a transitory state necessary to reach this goal?",
+        "answers": 1,
+        "results": [
+            null,
+            null,
+            null
+        ],
+        "answer": [
+            "soc_directstate1",
+            "labvouch",
+            null
+        ]
     },
-    {
-        "question": "Should the workers directly own the means of production in this stage, or should the state be in control of them?", //Question 30
-		"answers": "5",
-		"results": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "39",
-			"b": "31",
-			"c": "0"
-        }
+    "soc_directstate1": {
+        "question": "Should the workers directly own the means of production in this stage, or should the state be in control of them?",
+        "answers": 5,
+        "results": [
+            null,
+            null,
+            null
+        ],
+        "answer": [
+            "rev_ed",
+            "vanguard",
+            null
+        ]
     },
-    {
-        "question": "Is a vanguard party necessary to lead the working class in the revolution?", //Question 31
-		"answers": "1",
-		"results": {
-			"a": "0",
-			"b": "41",
-			"c": "0"
-		},
-		"answer": {
-			"a": "32",
-			"b": "0",
-			"c": "0"
-        }
+    "vanguard": {
+        "question": "Is a vanguard party necessary to lead the working class in the revolution?",
+        "answers": 1,
+        "results": [
+            null,
+            "orthmarx",
+            null
+        ],
+        "answer": [
+            "vanguard_ed",
+            null,
+            null
+        ]
     },
-    {
-        "question": "Should the role of this vanguard party be only to educate? As opposed to being some form of political leadership.", //Question 32
-		"answers": "1",
-		"results": {
-			"a": "12",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "33",
-			"c": "0"
-        }
+    "vanguard_ed": {
+        "question": "Should the role of this vanguard party be only to educate? As opposed to being some form of political leadership.",
+        "answers": 1,
+        "results": [
+            "castro",
+            null,
+            null
+        ],
+        "answer": [
+            null,
+            "cultural_revolution",
+            null
+        ]
     },
-    {
-        "question": "Should there be a cultural revolution to purge reactionary thought from society?", //Question 33
-		"answers": "1",
-		"results": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "34",
-			"b": "36",
-			"c": "0"
-        }
+    "cultural_revolution": {
+        "question": "Should there be a cultural revolution to purge reactionary thought from society?",
+        "answers": 1,
+        "results": [
+            null,
+            null,
+            null
+        ],
+        "answer": [
+            "3worlds",
+            "socinone",
+            null
+        ]
     },
-    {
-        "question": "Do you subscribe to Mao Zedong's Three Worlds Theory?", //Question 34
-		"answers": "1",
-		"results": {
-			"a": "0",
-			"b": "31",
-			"c": "0"
-		},
-		"answer": {
-			"a": "35",
-			"b": "0",
-			"c": "0"
-        }
+    "3worlds": {
+        "question": "Do you subscribe to Mao Zedong's Three Worlds Theory?",
+        "answers": 1,
+        "results": [
+            null,
+            "mlm",
+            null
+        ],
+        "answer": [
+            "nep",
+            null,
+            null
+        ]
     },
-    {
-        "question": "Do you think that a multi-generational stage of state capitalism is necessary to prepare the economy for socialism?", //Question 35
-		"answers": "1",
-		"results": {
-			"a": "18",
-			"b": "28",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-        }
+    "nep": {
+        "question": "Do you think that a multi-generational stage of state capitalism is necessary to prepare the economy for socialism?",
+        "answers": 1,
+        "results": [
+            "deng",
+            "mao",
+            null
+        ],
+        "answer": [
+            null,
+            null,
+            null
+        ]
     },
-    {
-        "question": "Do you think that socialism can be achieved within one nation?", //Question 36
-		"answers": "1",
-		"results": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "37",
-			"b": "38",
-			"c": "0"
-        }
+    "socinone": {
+        "question": "Do you think that socialism can be achieved within one nation?",
+        "answers": 1,
+        "results": [
+            null,
+            null,
+            null
+        ],
+        "answer": [
+            "aboveall1",
+            "posadism",
+            null
+        ]
     },
-    {
-        "question": "Do you think that the nation should be of most importance above all?", //Question 37
-		"answers": "1",
-		"results": {
-			"a": "36",
-			"b": "32",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-        }
+    "aboveall1": {
+        "question": "Do you think that the nation should be of most importance above all?",
+        "answers": 1,
+        "results": [
+            "nazbol",
+            "ml",
+            null
+        ],
+        "answer": [
+            null,
+            null,
+            null
+        ]
     },
-    {
-        "question": "Do you think an apocalyptic event would be the best way to achieve socialism?", //Question 38
-		"answers": "1",
-		"results": {
-			"a": "45",
-			"b": "57",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-        }
+    "posadism": {
+        "question": "Do you think an apocalyptic event would be the best way to achieve socialism?",
+        "answers": 1,
+        "results": [
+            "posadism",
+            "trot",
+            null
+        ],
+        "answer": [
+            null,
+            null,
+            null
+        ]
     },
-    {
-        "question": "Should there be a revolutionary party to teach the masses during and after the revolution?", //Question 39
-		"answers": "1",
-		"results": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "40",
-			"b": "42",
-			"c": "0"
-        }
+    "rev_ed": {
+        "question": "Should there be a revolutionary party to teach the masses during and after the revolution?",
+        "answers": 1,
+        "results": [
+            null,
+            null,
+            null
+        ],
+        "answer": [
+            "synd1",
+            "mediabad",
+            null
+        ]
     },
-    {
-        "question": "Should society be organized through unions?", //Question 40
-		"answers": "1",
-		"results": {
-			"a": "16",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "41",
-			"c": "0"
-        }
+    "synd1": {
+        "question": "Should society be organized through unions?",
+        "answers": 1,
+        "results": [
+            "deleon",
+            null,
+            null
+        ],
+        "answer": [
+            null,
+            "centplan",
+            null
+        ]
     },
-    {
-        "question": "Should the economy be planned centrally?", //Question 41
-		"answers": "1",
-		"results": {
-			"a": "11",
-			"b": "26",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-        }
+    "centplan": {
+        "question": "Should the economy be planned centrally?",
+        "answers": 1,
+        "results": [
+            "bordiga",
+            "luxem",
+            null
+        ],
+        "answer": [
+            null,
+            null,
+            null
+        ]
     },
-    {
-        "question": "Is mass media your focal issue with capitalism?", //Question 42
-		"answers": "1",
-		"results": {
-			"a": "46",
-			"b": "15",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-        }
+    "mediabad": {
+        "question": "Is mass media your focal issue with capitalism?",
+        "answers": 1,
+        "results": [
+            "situationist",
+            "councom",
+            null
+        ],
+        "answer": [
+            null,
+            null,
+            null
+        ]
     },
-    {
-        "question": "Should society feature labour vouchers as compensation for work?", //Question 43
-		"answers": "1",
-		"results": {
-			"a": "5",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "44",
-			"c": "0"
-        }
+    "labvouch": {
+        "question": "Should society feature labour vouchers as compensation for work?",
+        "answers": 1,
+        "results": [
+            "ancol",
+            null,
+            null
+        ],
+        "answer": [
+            null,
+            "agriculture",
+            null
+        ]
     },
-    {
-        "question": "Should agriculture be practiced?", //Question 44
-		"answers": "1",
-		"results": {
-			"a": "0",
-			"b": "8",
-			"c": "0"
-		},
-		"answer": {
-			"a": "45",
-			"b": "0",
-			"c": "0"
-        }
+    "agriculture": {
+        "question": "Should agriculture be practiced?",
+        "answers": 1,
+        "results": [
+            null,
+            "anprim",
+            null
+        ],
+        "answer": [
+            "synd2",
+            null,
+            null
+        ]
     },
-    {
-        "question": "Should society be organized through unions?", //Question 45
-		"answers": "1",
-		"results": {
-			"a": "9",
-			"b": "6",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-        }
+    "synd2": {
+        "question": "Should society be organized through unions?",
+        "answers": 1,
+        "results": [
+            "ansynd",
+            "ancom",
+            null
+        ],
+        "answer": [
+            null,
+            null,
+            null
+        ]
     },
-    {
-        "question": "Should the state and/or economy be run exclusively by experts?", //Question 46
-		"answers": "1",
-		"results": {
-			"a": "54",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "47",
-			"c": "0"
-        }
+    "techno": {
+        "question": "Should the state and/or economy be run exclusively by experts?",
+        "answers": 1,
+        "results": [
+            "technocracy",
+            null,
+            null
+        ],
+        "answer": [
+            null,
+            "electsoc",
+            null
+        ]
     },
-    {
-        "question": "Should socialism be achieved through electoralism or through revolutionary means?", //Question 47
-		"answers": "7",
-		"results": {
-			"a": "17",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "48",
-			"c": "0"
-        }
+    "electsoc": {
+        "question": "Should socialism be achieved through electoralism or through revolutionary means?",
+        "answers": 7,
+        "results": [
+            "demsoc",
+            null,
+            null
+        ],
+        "answer": [
+            null,
+            "soc_directstate2",
+            null
+        ]
     },
-    {
-        "question": "Should the workers directly own the means of production or should the state be in control of them?", //Question 48
-		"answers": "5",
-		"results": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "52",
-			"b": "49",
-			"c": "0"
-        }
+    "soc_directstate2": {
+        "question": "Should the workers directly own the means of production or should the state be in control of them?",
+        "answers": 5,
+        "results": [
+            null,
+            null,
+            null
+        ],
+        "answer": [
+            "agriculture_industrial",
+            "esobullshit",
+            null
+        ]
     },
-    {
-        "question": "Should class/nation be the main subject of political discussion, or should it be the Dasein (human essence)?", //Question 49
-		"answers": "9",
-		"results": {
-			"a": "1",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "50",
-			"c": "0"
-        }
+    "esobullshit": {
+        "question": "Should class/nation be the main subject of political discussion, or should it be the Dasein (human essence)?",
+        "answers": 9,
+        "results": [
+            "4theory",
+            null,
+            null
+        ],
+        "answer": [
+            null,
+            "bankjews",
+            null
+        ]
     },
-    {
-        "question": "Do you believe that the source economic problems faced by workers is down to Jewish bankers?", //Question 50
-		"answers": "1",
-		"results": {
-			"a": "52",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "51",
-			"c": "0"
-        }
+    "bankjews": {
+        "question": "Do you believe that the source economic problems faced by workers is down to Jewish bankers?",
+        "answers": 1,
+        "results": [
+            "strasser",
+            null,
+            null
+        ],
+        "answer": [
+            null,
+            "aboveall2",
+            null
+        ]
     },
-    {
-        "question": "Do you think that the nation should be of most importance above all?", //Question 51
-		"answers": "1",
-		"results": {
-			"a": "36",
-			"b": "51",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-        }
+    "aboveall2": {
+        "question": "Do you think that the nation should be of most importance above all?",
+        "answers": 1,
+        "results": [
+            "nazbol",
+            "statesoc",
+            null
+        ],
+        "answer": [
+            null,
+            null,
+            null
+        ]
     },
-    {
-        "question": "Should society be focused more on agriculture than on industrial work?", //Question 52
-		"answers": "1",
-		"results": {
-			"a": "3",
-			"b": "0",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "53",
-			"c": "0"
-        }
+    "agriculture_industrial": {
+        "question": "Should society be focused more on agriculture than on industrial work?",
+        "answers": 1,
+        "results": [
+            "agsoc",
+            null,
+            null
+        ],
+        "answer": [
+            null,
+            "synd3",
+            null
+        ]
     },
-    {
-        "question": "Should society be organised through unions?", //Question 53
-		"answers": "1",
-		"results": {
-			"a": "53",
-			"b": "24",
-			"c": "0"
-		},
-		"answer": {
-			"a": "0",
-			"b": "0",
-			"c": "0"
-        }
+    "synd3": {
+        "question": "Should society be organised through unions?",
+        "answers": 1,
+        "results": [
+            "synd",
+            "libsoc",
+            null
+        ],
+        "answer": [
+            null,
+            null,
+            null
+        ]
     }
-];
+}
