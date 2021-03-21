@@ -6,7 +6,7 @@ questions = {
             "no"
         ],
         "results": {},
-        "answer": {
+        "nextquestion": {
             "yes": "theo",
             "no": "market"
         }
@@ -20,7 +20,7 @@ questions = {
         "results": {
             "yes": "theocracy",
         },
-        "answer": {
+        "nextquestion": {
             "no": "distributism",
         }
     },
@@ -33,7 +33,7 @@ questions = {
         "results": {
             "yes": "distributism",
         },
-        "answer": {
+        "nextquestion": {
             "no": "conditional_land_ownership",
         }
     },
@@ -45,7 +45,7 @@ questions = {
         ],
         "results": {
         },
-        "answer": {
+        "nextquestion": {
             "yes": "scope_of_government2",
             "no": "scope_of_government1",
         }
@@ -59,7 +59,7 @@ questions = {
         ],
         "results": [
         ],
-        "answer": [
+        "nextquestion": [
             "watchman_state",
             "tradvals",
             "counter_economics"
@@ -74,7 +74,7 @@ questions = {
         "results": {
             "yes": "minarch",
         },
-        "answer": {
+        "nextquestion": {
             "no": "welfare",
         }
     },
@@ -86,7 +86,7 @@ questions = {
         ],
         "results": {
         },
-        "answer": {
+        "nextquestion": {
             "yes": "welfare_needed",
             "no": "limited_gov_tradvals",
         }
@@ -101,7 +101,7 @@ questions = {
             "yes": "socbert",
             "no": "bhl",
         },
-        "answer": {
+        "nextquestion": {
         }
     },
     "limited_gov_tradvals": {
@@ -114,7 +114,7 @@ questions = {
             "yes": "paleobert",
             "no": "libert",
         },
-        "answer": {
+        "nextquestion": {
         }
     },
     "tradvals": {
@@ -125,7 +125,7 @@ questions = {
         ],
         "results": {
         },
-        "answer": {
+        "nextquestion": {
             "yes": "tradauthstate",
             "no": "govbasicneeds",
         }
@@ -138,7 +138,7 @@ questions = {
         ],
         "results": {
         },
-        "answer": {
+        "nextquestion": {
             "yes": "corp_cap",
             "no": "strong_safety_net",
         }
@@ -151,7 +151,7 @@ questions = {
         ],
         "results": {
         },
-        "answer": {
+        "nextquestion": {
             "yes": "markreg",
             "no": "unions_vs_state",
         }
@@ -166,7 +166,7 @@ questions = {
             "yes": "socnat",
             "no": "nazcap",
         },
-        "answer": {
+        "nextquestion": {
         }
     },
     "unions_vs_state": {
@@ -178,7 +178,7 @@ questions = {
         "results": {
             "yes": "natsynd",
         },
-        "answer": {
+        "nextquestion": {
             "no": "clergygov",
         }
     },
@@ -191,7 +191,7 @@ questions = {
         "results": {
             "yes": "clerfash",
         },
-        "answer": {
+        "nextquestion": {
             "no": "racesuperior",
         }
     },
@@ -205,7 +205,7 @@ questions = {
             "yes": "nazi",
             "no": "fascism",
         },
-        "answer": {
+        "nextquestion": {
         }
     },
     "strong_safety_net": {
@@ -217,7 +217,7 @@ questions = {
         "results": {
             "yes": "patcon",
         },
-        "answer": {
+        "nextquestion": {
             "no": "intervgov",
         }
     },
@@ -231,7 +231,7 @@ questions = {
             "yes": "neocon",
             "no": "paleocon",
         },
-        "answer": {
+        "nextquestion": {
         }
     },
     "govbasicneeds": {
@@ -243,7 +243,7 @@ questions = {
         "results": {
             "yes": "socdem",
         },
-        "answer": {
+        "nextquestion": {
             "no": "econreg",
         }
     },
@@ -257,7 +257,7 @@ questions = {
             "yes": "lib",
             "no": "neolib",
         },
-        "answer": {
+        "nextquestion": {
         }
     },
     "counter_economics": {
@@ -269,7 +269,7 @@ questions = {
         "results": {
             "yes": "agorism",
         },
-        "answer": {
+        "nextquestion": {
             "no": "coop_ancap",
         }
     },
@@ -283,7 +283,7 @@ questions = {
             "yes": "leftroth",
             "no": "ancap",
         },
-        "answer": {
+        "nextquestion": {
         }
     },
     "scope_of_government2": {
@@ -297,7 +297,7 @@ questions = {
             "yes": "geolib",
             "nostate": "angeo"
         },
-        "answer": {
+        "nextquestion": {
             "no": "landwelfare",
         }
     },
@@ -311,7 +311,7 @@ questions = {
             "yes": "socgeo",
             "no": "georgism",
         },
-        "answer": {
+        "nextquestion": {
         }
     },
     "market": {
@@ -322,7 +322,7 @@ questions = {
         ],
         "results": {
         },
-        "answer": {
+        "nextquestion": {
             "yes": "statesoc",
             "no": "marx",
         }
@@ -338,7 +338,7 @@ questions = {
             "yes": "tito",
             "no": "marksoc",
         },
-        "answer": {
+        "nextquestion": {
             "nostate": "mutualaid"
         }
     },
@@ -351,7 +351,7 @@ questions = {
         "results": {
             "no": "lwma",
         },
-        "answer": {
+        "nextquestion": {
             "yes": "racism",
         }
     },
@@ -365,7 +365,7 @@ questions = {
             "yes": "natan",
             "no": "mutualism",
         },
-        "answer": {
+        "nextquestion": {
         }
     },
     "marx": {
@@ -376,7 +376,7 @@ questions = {
         ],
         "results": {
         },
-        "answer": {
+        "nextquestion": {
             "yes": "transstate",
             "no": "techno",
         }
@@ -389,7 +389,7 @@ questions = {
         ],
         "results": {
         },
-        "answer": {
+        "nextquestion": {
             "yes": "soc_directstate1",
             "no": "labvouch",
         }
@@ -402,7 +402,7 @@ questions = {
         ],
         "results": {
         },
-        "answer": {
+        "nextquestion": {
             "yes": "rev_ed",
             "no": "vanguard",
         }
@@ -416,7 +416,7 @@ questions = {
         "results": {
             "no": "orthmarx",
         },
-        "answer": {
+        "nextquestion": {
             "yes": "vanguard_ed",
         }
     },
@@ -429,7 +429,7 @@ questions = {
         "results": {
             "yes": "castro",
         },
-        "answer": {
+        "nextquestion": {
             "no": "cultural_revolution",
         }
     },
@@ -441,7 +441,7 @@ questions = {
         ],
         "results": {
         },
-        "answer": {
+        "nextquestion": {
             "yes": "3worlds",
             "no": "socinone",
         }
@@ -455,7 +455,7 @@ questions = {
         "results": {
             "no": "mlm",
         },
-        "answer": {
+        "nextquestion": {
             "yes": "nep",
         }
     },
@@ -469,7 +469,7 @@ questions = {
             "yes": "deng",
             "no": "mao",
         },
-        "answer": {
+        "nextquestion": {
         }
     },
     "socinone": {
@@ -480,7 +480,7 @@ questions = {
         ],
         "results": {
         },
-        "answer": {
+        "nextquestion": {
             "yes": "aboveall1",
             "no": "posadism",
         }
@@ -495,7 +495,7 @@ questions = {
             "yes": "nazbol",
             "no": "ml",
         },
-        "answer": {
+        "nextquestion": {
         }
     },
     "posadism": {
@@ -508,7 +508,7 @@ questions = {
             "yes": "posadism",
             "no": "trot",
         },
-        "answer": {
+        "nextquestion": {
         }
     },
     "rev_ed": {
@@ -519,7 +519,7 @@ questions = {
         ],
         "results": {
         },
-        "answer": {
+        "nextquestion": {
             "yes": "synd1",
             "no": "mediabad",
         }
@@ -533,7 +533,7 @@ questions = {
         "results": {
             "yes": "deleon",
         },
-        "answer": {
+        "nextquestion": {
             "no": "centplan",
         }
     },
@@ -547,7 +547,7 @@ questions = {
             "yes": "bordiga",
             "no": "luxem",
         },
-        "answer": {
+        "nextquestion": {
         }
     },
     "mediabad": {
@@ -560,7 +560,7 @@ questions = {
             "yes": "situationist",
             "no": "councom",
         },
-        "answer": {
+        "nextquestion": {
         }
     },
     "labvouch": {
@@ -572,7 +572,7 @@ questions = {
         "results": {
             "yes": "ancol",
         },
-        "answer": {
+        "nextquestion": {
             "no": "agriculture",
         }
     },
@@ -585,7 +585,7 @@ questions = {
         "results": {
             "no": "anprim",
         },
-        "answer": {
+        "nextquestion": {
             "yes": "synd2",
         }
     },
@@ -599,7 +599,7 @@ questions = {
             "yes": "ansynd",
             "no": "ancom",
         },
-        "answer": {
+        "nextquestion": {
         }
     },
     "techno": {
@@ -611,7 +611,7 @@ questions = {
         "results": {
             "yes": "technocracy",
         },
-        "answer": {
+        "nextquestion": {
             "no": "electsoc",
         }
     },
@@ -624,7 +624,7 @@ questions = {
         "results": {
             "yes": "demsoc",
         },
-        "answer": {
+        "nextquestion": {
             "no": "soc_directstate2",
         }
     },
@@ -636,7 +636,7 @@ questions = {
         ],
         "results": {
         },
-        "answer": {
+        "nextquestion": {
             "yes": "agriculture_industrial",
             "no": "esobullshit",
         }
@@ -650,7 +650,7 @@ questions = {
         "results": {
             "yes": "4theory",
         },
-        "answer": {
+        "nextquestion": {
             "no": "bankjews",
         }
     },
@@ -663,7 +663,7 @@ questions = {
         "results": {
             "yes": "strasser",
         },
-        "answer": {
+        "nextquestion": {
             "no": "aboveall2",
         }
     },
@@ -677,7 +677,7 @@ questions = {
             "yes": "nazbol",
             "no": "statesoc",
         },
-        "answer": {
+        "nextquestion": {
         }
     },
     "agriculture_industrial": {
@@ -689,7 +689,7 @@ questions = {
         "results": {
             "yes": "agsoc",
         },
-        "answer": {
+        "nextquestion": {
             "no": "synd3",
         }
     },
@@ -703,7 +703,7 @@ questions = {
             "yes": "synd",
             "no": "libsoc",
         },
-        "answer": {
+        "nextquestion": {
         }
     }
 }
