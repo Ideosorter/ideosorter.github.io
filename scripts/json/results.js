@@ -42,19 +42,19 @@ results = { // don't change this line
 	},
 	"bordiga": {
 		"result": "You're a Bordigist/Italian Left-Communist", //Result 11
-		"desc": "Italian Left Communism is an ideology that deems that "
+		"desc": "Italian Left Communism is an ideology that deems that " //todo
 	},
 	"castro": {
 		"result": "You're a Castroist", //Result 12
-		"desc": "Castroism is an ideology "
+		"desc": "Castroism is an ideology " //todo
 	},
 	"fascism": {
 		"result": "You're a Classical Fascist", //Result 13
-		"desc": ""
+		"desc": "Fascism is a form of far-right, authoritarian ultranationalism characterized by dictatorial power, forcible suppression of opposition and strong regimentation of society and of the economy" //cp
 	},
 	"clerfash": {
 		"result": "You're a Clerical Fascist", //Result 14
-		"desc": ""
+		"desc": "Clerical fascism is an ideology that combines the political and economic doctrines of fascism with clericalism" //cp
 	},
 	"councom": {
 		"result": "You're a Council Communist", //Result 15
@@ -74,11 +74,11 @@ results = { // don't change this line
 	},
 	"distributism": {
 		"result": "You're a Distributist", //Result 19
-		"desc": ""
+		"desc": "Distributism is a third-way, free market, center-right ideology" //cp
 	},
 	"geolib": {
 		"result": "You're a Geolibertarian", //Result 20
-		"desc": ""
+		"desc": "Geolibertarianism is an ideology that incorpotates the georgist principles of free trade, free land and the value taxes with the liberatarian principle of minimal government."
 	},
 	"georgism": {
 		"result": "You're a Georgist", //Result 21
@@ -86,11 +86,11 @@ results = { // don't change this line
 	},
 	"leftroth": {
 		"result": "You're a Left-Rothbardian", //Result 22
-		"desc": ""
+		"desc": "Left-Rothbardianism is a left-wing inspired take on traditional Rothbardian Anarcho-Capitalism that sees an Anarcho-Capitalist society as the ideal place to achieve traditionally left wing goals such as social and economic equality."
 	},
 	"libert": {
 		"result": "You're a Right-Libertarian", //Result 23
-		"desc": ""
+		"desc": "Right-libertarianism is an ideology that supports capitalist property rights and defends market distribution of natural resources and private property"
 	},
 	"libsoc": {
 		"result": "You're a Libertarian Socialist", //Result 24
@@ -98,11 +98,11 @@ results = { // don't change this line
 	},
 	"lib": {
 		"result": "You're a Keynesian Liberal",//Result 25
-		"desc": ""
+		"desc": "Keynesian liberalism is an form of liberal capitalism that deems that for the market to function in an adequate way it must be under the supervision of an interventionist state"
 	},
 	"luxem": {
 		"result": "You're a Luxemburgist",//Result 26
-		"desc": ""
+		"desc": "Luxemburgism is a Marxist-Communist, Libertarian, anti-war, and extremely progressive ideology that believes that the Dictatorship of the Proletariat should be run by democratic workers councils and unions, rather than a Socialist Party." //cp
 	},
 	"lwma": {
 		"result": "You're a Left-Wing Market Anarchist", //Result 27
@@ -110,7 +110,7 @@ results = { // don't change this line
 	},
 	"mao": {
 		"result": "You're a Maoist", //Result 28
-		"desc": ""
+		"desc": "Maoism is a variety of Marxism–Leninism that Mao Zedong developed for realising a socialist revolution in the agricultural, pre-industrial society of China. The main difference being is that the peasantry are the revolutionary vanguard in pre-industrial societies rather than the proletariat." //cp
 	},
 	"marksoc": {
 		"result": "You're a Market Socialist", //Result 29
@@ -138,23 +138,23 @@ results = { // don't change this line
 	},
 	"natsynd": {
 		"result": "You're a National Syndicalist", //Result 35
-		"desc": ""
+		"desc": "National syndicalism is an adaptation of syndicalism to suit the social agenda of integral nationalism."
 	},
 	"nazbol": {
 		"result": "You're a National Bolshevik", //Result 36
-		"desc": ""
+		"desc": "National Bolshevism is a political movement that combines elements of fascism and Bolshevism"
 	},
 	"nazcap": {
 		"result": "You're a National Capitalist", //Result 37
-		"desc": ""
+		"desc": "National Capitalism is an economically right wing, culturally traditionalist, nationalist and fascist ideology"
 	},
 	"nazi": {
 		"result": "You're a National Socialist", //Result 38
-		"desc": ""
+		"desc": "National Socialism is a form of fascism, with disdain for liberal democracy and the parliamentary system. It incorporates fervent antisemitism, anti-communism, scientific racism, and the use of eugenics into its creed."
 	},
 	"neocon": {
 		"result": "You're a Neoconservative", //Result 39
-		"desc": ""
+		"desc": "Neoconservativism promotes democracy and interventionism in international affairs, including peace through strength, and are known for espousing disdain for communism and political radicalism."
 	},
 	"neolib": {
 		"result": "You're a Neoliberal", //Result 40
@@ -162,11 +162,11 @@ results = { // don't change this line
 	},
 	"orthmarx": {
 		"result": "You're an Orthodox Marxist", //Result 41
-		"desc": ""
+		"desc": "Orthodox Marxism is an economically far left, progressive ideology that looks to achieve a communist society, a stateless, classless, moneyless society."
 	},
 	"paleobert": {
 		"result": "You're a Paleolibertarian", //Result 42
-		"desc": ""
+		"desc": "Paleolibertarianism is an ideology developed by American anarcho-capitalist theorists Murray Rothbard and Lew Rockwell that combines traditional conservative cultural values and social philosophy with a libertarian opposition to government intervention."
 	},
 	"paleocon": {
 		"result": "You're a Paleoonservative", //Result 43
@@ -198,7 +198,7 @@ results = { // don't change this line
 	},
 	"socnat": {
 		"result": "You're a Social Nationalist", //Result 50
-		"desc": ""
+		"desc": "Social Nationalism is a form of nationalism based upon national self-determination, popular sovereignty and social equality"
 	},
 	"statesoc": {
 		"result": "You're a State Socialist", //Result 51
@@ -210,7 +210,7 @@ results = { // don't change this line
 	},
 	"synd": {
 		"result": "You're a Syndicalist", //Result 53
-		"desc": ""
+		"desc": "Syndicalism is an ideology that seeks to advance the demands and rights of workers through strikes."
 	},
 	"technocracy": {
 		"result": "You're a Technocrat", //Result 54
