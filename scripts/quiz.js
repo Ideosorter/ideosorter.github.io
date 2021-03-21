@@ -10,7 +10,7 @@ function init_question() {
 }
 function next_question(indx) {
     if (questions[questionId].results[indx] == null) {
-        questionId = questions[questionId].answer[indx]
+        questionId = questions[questionId].nextquestion[indx]
         init_question()
     } else {
         location.href = "results.html" + "?=" + questions[questionId].results[indx]
