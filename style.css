@@ -128,6 +128,7 @@ img {
     font-size: 24pt;
     margin: -2px auto;
     cursor: pointer;
+    display: none;
  }
 .small_button, .small_button_off {
     background-color: #333;
