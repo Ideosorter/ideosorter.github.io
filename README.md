@@ -1,2 +1,2 @@
-# theghostofinky.github.io
-Ideosorter
+# Ideosorter
+Ideosorter is a flowchart based interactive political quiz.
