@@ -1,4 +1,4 @@
-buttons = {
+buttons = { // don't change this line
     "yes": {
         "text": "Yes",
         "color": "#1b5e20"
