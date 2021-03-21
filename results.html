@@ -20,8 +20,8 @@
 
 		(function getUrl() {
 			var iid = window.location.search.split("=")[1]
-			document.getElementById("id-ideology").innerHTML = ideology[iid].ideology;
-			document.getElementById("desc-ideology").innerHTML = ideology[iid].desc;
+			document.getElementById("id-ideology").innerHTML = results[iid].result;
+			document.getElementById("desc-ideology").innerHTML = results[iid].desc;
 			document.getElementById("flag").src = "flags/" + iid + "_flag.svg"
 
 		})()
