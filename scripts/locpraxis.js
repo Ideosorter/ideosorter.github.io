@@ -58,7 +58,7 @@ if (lang != undefined) {
 } else {
     if (window.location.href.includes("?")) {
         window.location.href = window.location.href + "&lang=en"
-    } else if (window.location.href == "") {
+    } else if (window.location.href.endsWith("/")) {
         window.location.href = window.location.href + "index.html?lang=en"
     } else {
         window.location.href = window.location.href + "?lang=en"
