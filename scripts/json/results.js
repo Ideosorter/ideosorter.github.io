@@ -42,11 +42,11 @@ results = { // don't change this line
 	},
 	"bordiga": {
 		"result": "You're a Bordigist/Italian Left-Communist", //Result 11
-		"desc": "Italian Left Communism is an ideology that deems that " //todo
+		"desc": "Italian Left Communism is an ideology that takes a staunchly anti-revisionist approach to Marx and Lenin's works, being extremely critical of their sucessors' developments" //todo
 	},
 	"castro": {
 		"result": "You're a Castroist", //Result 12
-		"desc": "Castroism is an ideology " //todo
+		"desc": "Castroism is an ideology derived from Fidel Castro's application of Marxism–Leninism to the conditions of Cuba, mostly differening in the role of the vanguard party" 
 	},
 	"fascism": {
 		"result": "You're a Classical Fascist", //Result 13
@@ -62,7 +62,7 @@ results = { // don't change this line
 	},
 	"deleon": {
 		"result": "You're a De Leonist", //Result 16
-		"desc": ""
+		"desc": "De Lenism is an ideology that combines syndicalist labor organization with Marxist ideas such as the concept of a Dictatorship of the Proletariat"
 	},
 	"demsoc": {
 		"result": "You're a Democatic Socialist", //Result 17
@@ -106,7 +106,7 @@ results = { // don't change this line
 	},
 	"lwma": {
 		"result": "You're a Left-Wing Market Anarchist", //Result 27
-		"desc": ""
+		"desc": "Left-Wing Market Anarchism is an ideology that seeks to establish a stateless society based on a post-capitalist market economy"
 	},
 	"mao": {
 		"result": "You're a Maoist", //Result 28
@@ -158,7 +158,7 @@ results = { // don't change this line
 	},
 	"neolib": {
 		"result": "You're a Neoliberal", //Result 40
-		"desc": ""
+		"desc": "Neoliberalism is a fusion of neoclassical and Keynesian economic ideas that seeks to strike a balance between regulations and Laissez-Faire"
 	},
 	"orthmarx": {
 		"result": "You're an Orthodox Marxist", //Result 41
@@ -182,7 +182,7 @@ results = { // don't change this line
 	},
 	"situationist": {
 		"result": "You're a Situationist", //Result 46
-		"desc": ""
+		"desc": "Situationism is a movement of avant-garde libertarian marxists who focused primarily on criticizng capitalism through artistic means"
 	},
 	"socbert": {
 		"result": "You're a Social Libertarian", //Result 47
