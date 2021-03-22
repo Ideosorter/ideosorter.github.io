@@ -1,30 +1,42 @@
+<html lang="en-US">
+
 <head>
-<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
-<link href='style.css' rel='stylesheet' type='text/css'>
-<title>Ideosorter</title>
-<link rel="icon" type="x-icon" href="icon.png">
-<link rel="shortcut icon" type="x-icon" href="icon.png">
-<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
+	<link href='style.css' rel='stylesheet' type='text/css'>
+	<link rel="icon" type="x-icon" href="icon.png">
+	<link rel="shortcut icon" type="x-icon" href="icon.png">
+	<meta charset="utf-8">
+	<title>Ideosorter</title>
+	<meta property="og:ttl" content="600">
+	<meta property="og:site_name" content="Ideosorter.github.io">
+	<meta property="og:title" content="Ideosorter">
+	<meta property="og:type" content="website">
+	<meta property="og:description" content="Ideosorter is a flowchart based interactive political quiz.">
+	<meta property="og:url" content="https://ideosorter.github.io/">
+	<meta property="og:image" content="https://ideosorter.github.io/embedicon.png">
+	<meta property="og:image:width" content="512">
+	<meta property="og:image:height" content="512">
+	<meta name="theme-color" content="#000000" data-react-helmet="true">
+	<meta charset="utf-8">
 </head>
 
 <body>
-<script type="application/javascript"
-        src="ideologies.js">
-</script>
-<h1>Ideosorter</h1>
-<hr>
-<p class="question" id="id-ideology"></p>
-<h2> <span class="weight-300"></span></h2>
-<img src="" id="flag">
-<script>
-
-(function getUrl() {
-	var url = window.location.search;
-	var surl = url.split('=');
-	var idn = surl[1]
-	document.getElementById("id-ideology").innerHTML = ideology[idn].ideology;
-	document.getElementById("flag").src = ideology[idn].flag
-	})()
-</script>
+	</script>
+	<h1 id="title"></h1>
+	<hr>
+	<p class="result" id="id-ideology"></p>
+	<h2> <span class="weight-300"></span></h2>
+	<img src="" id="flag">
+	<p class="description" id="desc-ideology"></p>
+	<script type="application/javascript" src="scripts/json/loc.js"></script>
+	<script type="application/javascript" src="scripts/locpraxis.js"></script>
+	<script type="application/javascript" src="scripts/json/results.js"></script>
+	<script>
+		iid = getParameterByName("ideo")
+		document.getElementById("id-ideology").innerHTML = results[iid]["result_" + lang]
+		document.getElementById("desc-ideology").innerHTML = results[iid]["desc_" + lang]
+		document.getElementById("flag").src = "flags/" + iid + "_flag.svg"
+	</script>
 </body>
 
+</html>

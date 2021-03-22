@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1280"
+   height="853.33331"
+   viewBox="0 0 42.666667 28.444444"
+   version="1.1"
+   id="svg17"
+   sodipodi:docname="Mao_flag.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
+  <metadata
+     id="metadata21">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview19"
+     showgrid="false"
+     inkscape:zoom="1.1655556"
+     inkscape:cx="450"
+     inkscape:cy="300"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg17" />
+  <defs
+     id="defs3">
+    <path
+       id="s"
+       d="M 0,-1 0.587785,0.809017 -0.951057,-0.309017 H 0.951057 L -0.587785,0.809017 Z"
+       fill="#ffde00" />
+  </defs>
+  <rect
+     style="stroke-width:1.42222"
+     y="0"
+     x="0"
+     width="42.666668"
+     height="28.444445"
+     fill="#de2910"
+     id="rect5" />
+  <use
+     height="100%"
+     width="100%"
+     y="0"
+     x="0"
+     xlink:href="#s"
+     transform="matrix(4.2666667,0,0,4.2666667,7.1111111,7.1111111)"
+     id="use7" />
+</svg>
