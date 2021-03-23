@@ -7,6 +7,9 @@ function getParameterByName(name) {
     if (!results[2]) return '';
     return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
+function changeLang(toLang) {
+    window.location.href = window.location.href.replace("lang=" + lang, "lang=" + toLang)
+}
 lang = getParameterByName("lang")
 
 if (lang != undefined) {
@@ -33,7 +36,7 @@ if (lang != undefined) {
             // dropdown settings
             document.getElementById("dropbtn").innerHTML = localisation[lang].name
             for (var i = 0; i < Object.keys(localisation).length; i++) {
-                document.getElementById("dropdown-content").innerHTML += "<a onclick=\"location.href = 'index.html?lang=" + Object.keys(localisation)[i] + "\"'>" + Object.values(localisation)[i].name + "</a>"
+                document.getElementById("dropdown-content").innerHTML += "<a onclick=\"changeLang(\'" + Object.keys(localisation)[i] + "\')\">" + Object.values(localisation)[i].name + "</a>"
             }
             break
         case "instructions.html":
