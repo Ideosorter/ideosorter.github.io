@@ -56,7 +56,7 @@ questions = { // don't change this line
         },
         "scope_of_government1": { //not here
             "question_en": "Should the scope of government be limited?",
-            "question_en": "Měla by velikost vlády být omezena?",
+            "question_cs": "Měla by velikost vlády být omezena?",
             "answers": [
                 "yes",
                 "no",
