@@ -1,6 +1,7 @@
 questions = { // don't change this line
         "private_property": {
             "question_en": "Should Private Property exist?",
+            "question_cs": "Mělo by soukromé vlastnictví existovat?",
             "answers": [
                 "yes",
                 "no"
@@ -13,6 +14,7 @@ questions = { // don't change this line
         },
         "theo": {
             "question_en": "Should society be run by intermediaries to a deity?",
+            "question_cs": "Měla by společnost být řízena prostředníky božstva?",
             "answers": [
                 "yes",
                 "no"
@@ -26,6 +28,7 @@ questions = { // don't change this line
         },
         "distributism": {
             "question_en": "Should private property be made as widely owned as possible?",
+            "question_cs": "Mělo by soukromé vlastnictví být rozšířeno co nejvíce?",
             "answers": [
                 "yes",
                 "no"
@@ -39,6 +42,7 @@ questions = { // don't change this line
         },
         "conditional_land_ownership": {
             "question_en": "Should land ownership be conditional or unconditional?",
+            "question_cs": "Mělo by vlastnictví pozemku být podmínečné nebo nepodmínečné?",
             "answers": [
                 "conditional",
                 "unconditional"
@@ -52,6 +56,7 @@ questions = { // don't change this line
         },
         "scope_of_government1": { //not here
             "question_en": "Should the scope of government be limited?",
+            "question_en": "Měla by velikost vlády být omezena?",
             "answers": [
                 "yes",
                 "no",
@@ -67,6 +72,7 @@ questions = { // don't change this line
         },
         "watchman_state": {
             "question_en": "Should the government purely be a night watchman state?",
+            "question_cs": "Měla by vláda být čistě “stát noční hlídky”?",
             "answers": [
                 "yes",
                 "no"
@@ -80,6 +86,7 @@ questions = { // don't change this line
         },
         "welfare": {
             "question_en": "Should there be a focus on helping the disadvantaged?",
+            "question_cs": "Mělo by být zaměření na pomoc znevýhodněným?",
             "answers": [
                 "yes",
                 "no"
@@ -93,6 +100,7 @@ questions = { // don't change this line
         },
         "welfare_needed": {
             "question_en": "Would welfare be needed to help the disadvantaged under a deregulated market economy?",
+            "question_cs": "Byly by socialní dávky zapotřebí v neregulované trhové ekonomice?",
             "answers": [
                 "welfare",
                 "noneed"
