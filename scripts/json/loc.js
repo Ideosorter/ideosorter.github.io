@@ -24,5 +24,19 @@ localisation = {
         "instructions_text": "Budete představeni serii otázek. Pro každou otázku stiskněte tlačítko s vaším názorem.",
         "instructions_gotitbutton": "Chápu!",
         "instructions_nevermind": "Počkat, zapomeňte to."
+    },
+    "de": {
+        "name": "Deutsch",
+        "title": "Ideosorter",
+        // Index
+        "index_startbutton": "Klicken Sie hier um zu starten!",
+        "index_text": "<h2>Was ist Ideosorter?</h2><p>Ideosorter ist im Wesentlichen ein politisches Quiz, das versucht, Ihnen eine Ideologie zuzuordnen, die Ihren Ansichten am ehesten entspricht, indem es Ihnen Fragen stellt, die auf einem Flussdiagramm-Modell basieren. Dieser Test ordnet Sie anhand Ihrer Antworten auf diese Fragen in eine von 57 verschiedenen Ideologien ein; vielleicht entdecken Sie dabei etwas, was Sie noch nicht über sich selbst wussten!</p><h2>Ich verstehe eine der Fragen nicht! </h2><p>Wenn Sie etwas nicht verstehen, können Sie die Begriffe leicht nachschlagen. Wenn trotzdem etwas noch nicht klar ist, sagen Sie uns Bescheid, damit wir die Fragen ändern können!</p><h2>Ich mag meine zugeordnete Ideologie nicht!</h2><p>¯\\_(ツ)_/¯</p>",
+        "index_contacts_text": "Kontakt:",
+        "index_contacts": "<p>TheGhostOfInky#9229</p><p>theghostofinky@gmail.com</p><p><a href=\"https://github.com/Ideosorter/ideosorter.github.io\">GitHub Page</a></p>", // backslash escapes " meaning you can write " in string
+        // Instructions
+        "instructions_title": "Anleitung",
+        "instructions_text": "Ihnen werden eine Reihe an Fragen gesrtellt. Wählen Sie die Antwort, die Ihrer Meinung entspricht.",
+        "instructions_gotitbutton": "Alles klar!",
+        "instructions_nevermind": "Moment, vergessen Sie's!"
     }
 }
