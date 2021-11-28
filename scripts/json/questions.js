@@ -427,7 +427,7 @@ questions = { // don't change this line
         "soc_directstate1": {
             "question_en": "Should the workers directly own the means of production in this stage, or should the state be in control of them?",
 	    "question_cs": "Měli by dělníci přímo vlastnit prostředky výroby, nebo by je měl ovládat stát?",
-			
+
             "answers": [
                 "workers",
                 "state"
@@ -693,7 +693,7 @@ questions = { // don't change this line
         },
         "esobullshit": {
             "question_en": "Should class/nation be the main subject of political discussion, or should it be the Dasein (human essence)?",
-            "question_cs": "Měla by hlavním předmětem politické diskuze být třída/národ, nebo by tím měla být lidská esence zvaná dasen?,
+            "question_cs": "Měla by hlavním předmětem politické diskuze být třída/národ, nebo by tím měla být lidská esence zvaná dasen?",
             "answers": [
                 "dasein",
                 "classnation"

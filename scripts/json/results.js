@@ -2,16 +2,16 @@ results = { // don't change this line
 	"placeholder": {},
 	"4theory": {
 		"result_en": "You're a Fourth Theorist",
-		"desc_en": "The fourth theory is an ideology concieved by the Russian political analyst Aleksandr Dugin that seeks to find a new poltiical theory past Liberalism, Marxism and Fascism."
-		"result_cs": "Jste Čtvrtým teoretikem"
+		"desc_en": "The fourth theory is an ideology concieved by the Russian political analyst Aleksandr Dugin that seeks to find a new poltiical theory past Liberalism, Marxism and Fascism.",
+		"result_cs": "Jste Čtvrtým teoretikem",
 		"desc_cs": "Čtvrtá politická teorie je ideologie vymyšlena ruským politickým analytikem Aleksandrem Duginem, snažící se najít nobou politickou teorii mimo liberalismus, marxismus a fašismus."
 	},
 	"agorism": {
 		"result_en": "You're an Agorist", //Result 2
-		"desc_en": "Agorism is an ideology concieved by Samuel Edward Konkin III that seeks to establish a society in which all exchanges are voluntary, by the means of engaging in counter-economic activities."
-	        "result_cs": "Jste agoristou"
-                "desc_cs": "Agorismus je ideologie vymyšlena Samuelem Edwardem Konkinem III, snažící se nastolit společnost, v níž všechny výměny jsou dobrovolné, prostředkem účastnění se kontraekonomických aktivit."
-	
+		"desc_en": "Agorism is an ideology concieved by Samuel Edward Konkin III that seeks to establish a society in which all exchanges are voluntary, by the means of engaging in counter-economic activities.",
+	  "result_cs": "Jste agoristou",
+  	"desc_cs": "Agorismus je ideologie vymyšlena Samuelem Edwardem Konkinem III, snažící se nastolit společnost, v níž všechny výměny jsou dobrovolné, prostředkem účastnění se kontraekonomických aktivit."
+
 	},
 	"agsoc": {
 		"result_en": "You're an Agrarian Socialist", //Result 3
@@ -51,7 +51,7 @@ results = { // don't change this line
 	},
 	"castro": {
 		"result_en": "You're a Castroist", //Result 12
-		"desc_en": "Castroism is an ideology derived from Fidel Castro's application of Marxism–Leninism to the conditions of Cuba, mostly differening in the role of the vanguard party" 
+		"desc_en": "Castroism is an ideology derived from Fidel Castro's application of Marxism–Leninism to the conditions of Cuba, mostly differening in the role of the vanguard party"
 	},
 	"fascism": {
 		"result_en": "You're a Classical Fascist", //Result 13
