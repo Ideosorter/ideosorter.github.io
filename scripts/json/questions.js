@@ -693,7 +693,7 @@ questions = { // don't change this line
         },
         "esobullshit": {
             "question_en": "Should class/nation be the main subject of political discussion, or should it be the Dasein (human essence)?",
-            "question_cs": "Měla by hlavním předmětem politické diskuze být třída/národ, nebo by tím měla být lidská esence zvaná dasen?,
+            "question_cs": "Měla by hlavním předmětem politické diskuze být třída/národ, nebo by tím měla být lidská esence zvaná dasen?",
             "answers": [
                 "dasein",
                 "classnation"
