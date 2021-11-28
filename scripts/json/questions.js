@@ -707,7 +707,7 @@ questions = { // don't change this line
         },
         "bankjews": {
             "question_en": "Do you believe that the source economic problems faced by workers is down to Jewish bankers?",
-            "question_cs": "Myslíte si, že zdrojem všech ekonomických problémů jsou židovští bankéři?"
+            "question_cs": "Myslíte si, že zdrojem všech ekonomických problémů jsou židovští bankéři?",
             "answers": [
                 "yes",
                 "no"
