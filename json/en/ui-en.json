@@ -1,0 +1,18 @@
+{
+  "index":{
+    "title": "Ideosorter",
+    "text": "<h2>What is Ideosorter?</h2><p>Ideosorter is, in essence, a political quiz that attempts to assign an ideology that matches your views the closest by asking questions to you based on a flowchart model. This test will sort you into one of <span id='ideo_lenght'></span> different ideologies based on your answers to these questions; maybe you'll discover something you didn't know about yourself!</p><h2>I don't understand one of the questions!</h2><p>If there's anything you don't understand, we've tried to make any terminology easily looked up, and if it's still not clear, tell us so we can make some changes to the questions!</p><h2>I don't like my matched ideology!</h2><p>¯\\_(ツ)_/¯</p>",
+    "start": "Click here to start!",
+    "contacts": "Contacts:",
+    "contact_info": "<p>TheGhostOfInky#9229</p><p>theghostofinky@gmail.com</p><p><a href=\"https://github.com/Ideosorter/ideosorter.github.io\">GitHub Page</a></p>"
+  },
+  "quiz":{
+    "title": "Ideosorter - Quiz",
+    "back": "back"
+  },
+  "results":{
+    "title": "Ideosorter - Results",
+    "back": "Return to Index",
+    "credits": "Credits"
+  }
+}

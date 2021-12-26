@@ -1,0 +1,18 @@
+{
+  "index":{
+    "title": "Ideosorter",
+    "text": "<h2>Co je Ideosorter?</h2><p>Ideosorter je v podstatě politický kvíz, který se pokouší přiřadit ideologii, která se nejvice shoduje s Vašimi názory pokladaním dotazů založených na vývojovém diagramu. Tento test Vás zařadí do jedné z <span id='ideo_lenght'></span> ideologií podle Vaších odpovědí. Možná o sobě objevíte něco, co jste nevěděli!</p><h2>Nerozumím jedné z otázek!</h2><p>Pokud něčemu nerozumíte, pokusili jsme se použit snadno dohledatelnou terminologii, ale pokud je něco pořád nejasné, dejte nám vědět, abychom to mohli napravit!</p><h2>Nelíbí se mi moje přiřazená ideologie!</h2><p>¯\\_(ツ)_/¯</p>",
+    "start": "Začněte kliknutím sem!",
+    "contacts": "Kontakty:",
+    "contact_info": "<p>TheGhostOfInky#9229</p><p>theghostofinky@gmail.com</p><p><a href=\"https://github.com/Ideosorter/ideosorter.github.io\">Stránka na Githubu</a></p>"
+  },
+  "quiz":{
+    "title": "Ideosorter - Quiz",
+    "back": "Zpět"
+  },
+  "results":{
+    "title": "Ideosorter - Výsledky",
+    "back": "Zpět na index",
+    "credits": "Autoři"
+  }
+}

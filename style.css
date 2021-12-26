@@ -1,444 +1,278 @@
-/*Default CSS*/
-
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 html {
-	background-color: #bbbbbb;
-	padding: 0px;
+    font-family: 'Jost', sans-serif;
+    background-color: #DDD;
+    color: #000;
+    display: grid;
+    margin: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #333 #CCC;
 }
-
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #CCC;
+}
+::-webkit-scrollbar-thumb {
+  border: 2px solid #CCC;
+  width: 10px;
+  background-color: #222;
+  border-radius: 20px;
+}
 body {
-	width: 80%;
-	min-height: calc(100vh - 4em);
-	margin: 0 auto;
-	padding: 2em;
-	background-color: #dddddd;
-	border-color: #eeeeee;
-	border-left-style: solid;
-	border-right-style: solid;
-	border-width: 20px;
+    margin: 0 auto;
+    width: 80%;
+    justify-items: center;
+    align-items: center;
 }
-
-p {
-	color: #444444;
-	font-family: 'Roboto', sans-serif;
-	font-size: 16pt;
-	line-height: 1;
-	margin: 4pt;
-}
-
-p.value-description {
-	text-indent: -16pt;
-	margin-left: 20pt;
-}
-
-p.question {
-	margin: 16pt auto;
-	color: #333333;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: normal;
-	width: 70%;
-	min-width: 500pt;
-	min-height: 144pt;
-	background-color: #eeeeee;
-	padding: 16pt;
-	border-radius: 16pt;
-	font-size: 36pt;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-}
-
-p.result {
-	margin: 16pt auto;
-	color: #333333;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: normal;
-	width: 70%;
-	min-width: 500pt;
-	min-height: 144pt;
-	padding: 16pt;
-	border-radius: 16pt;
-	font-size: 48pt;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-}
-
-p.description {
-	margin: 16pt auto;
-	color: #333333;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: normal;
-	width: 70%;
-	min-width: 500pt;
-	min-height: 144pt;
-	background-color: #eeeeee;
-	padding: 16pt;
-	border-radius: 16pt;
-	font-size: 36pt;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-}
-
 h1 {
-	color: #222222;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 72pt;
-	text-align: center;
-	line-height: 72pt;
-	margin-top: 0pt;
-	margin-bottom: 0pt;
+    font-size: 5em;
+    text-align: center;
 }
-
 h2 {
-	color: #333333;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 36pt;
-	line-height: 36pt;
-	margin-top: 12pt;
-	margin-bottom: 0pt;
+    font-size: 3.5em;
 }
-
-
-/*Base CSS*/
-
-li {
-	font-size: 16pt;
-	text-indent: 16pt;
+p {
+    font-size: 1.5em;
 }
-
-a {
-	font-family: inherit;
+select, option {
+    background-color: #FFF;
+    font-size: 1em;
+    color: #000;
+    font-family: inherit;
+    border: 0;
+    border-radius: 1em;
+    padding:10px;
+    margin-top: 2em
 }
-
-img.center {
-	display: block;
-	margin: 1em auto;
-	width: 50%;
-	min-width: 500pt;
-}
-
-img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 100%;
-	height: auto;
-}
-
-.button {
-	background-color: #2196f3;
-	font-family: 'Montserrat', sans-serif;
-	border: none;
-	border-radius: 8pt;
-	color: white;
-	padding: 8pt;
-	width: 50%;
-	min-width: 500pt;
-	text-align: center;
-	text-decoration: none;
-	display: block;
-	font-size: 24pt;
-	margin: -2px auto;
-	cursor: pointer;
-}
-
-.small_button,
-.small_button_off {
-	background-color: #333;
-	font-family: 'Montserrat', sans-serif;
-	border: none;
-	border-radius: 8pt;
-	color: white;
-	padding: 8pt;
-	width: 10%;
-	min-width: 100pt;
-	text-align: center;
-	text-decoration: none;
-	display: block;
-	font-size: 18pt;
-	margin: -2px auto;
-	cursor: pointer;
-}
-
-.small_button_off {
-	background-color: #ddd;
-	color: #888;
-	border: 2px solid #888;
-	cursor: not-allowed;
-	margin: -4px auto;
-}
-
-.hidden {
-	display: none
-}
-
-div.text-wrapper {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 36pt;
-	line-height: 36pt;
-	color: #222222;
-	display: inline-block;
-}
-
-span.weight-300 {
-	font-weight: 300;
-}
-
-#banner {
-	border-color: #444444;
-	border-style: solid;
-	border-width: 2px;
-	border-radius: 8pt;
-	display: block;
-	margin: 8pt;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-
-/* dropdown menu */
-/* Dropdown Button */
-#dropbtn {
-    font-family: 'Montserrat', sans-serif;
-	background-color: #2196f3;
-	color: white;
-	padding: 8pt;
-	font-size: 16px;
-	border: none;
-    cursor: pointer;
-    border-radius: 8pt;
-    cursor: pointer;
-    margin: -2px auto;
-}
-/* The container <div> - needed to position the dropdown content */
-#dropdown {
-	position: relative;
-	display: block;
-}
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    font-family: 'Montserrat', sans-serif;
-	background-color: #eeeeee;
-	color: #333333;
-	padding: 8pt;
-	font-size: 16px;
-	border: none;
-    cursor: pointer;
-    border-radius: 8pt;
-    cursor: pointer;
-    margin: -2px auto;
-	display: none;
-	position: absolute;
-	min-width: 160px;
-	z-index: 1;
-}
-
-.dropdown-content a {
+button {
+    background-color: #2196f3;
+    color: #DDD;
+    font-family: inherit;
+    font-size: 2em;
+    width: 30%;
+    min-width: 400px;
+    padding: 0.3em;
+    border: 0;
+    border-radius: 10px;
     display: block;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
 }
 
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {
-	display: block;
+/*quiz.html*/
+#question {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFF;
+    font-size: 3em;
+    max-width: 80%;
+    height: 200px;
+    max-height: 100%;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 0.5em;
+    text-align: center;
+}
+#back_button {
+    background-color: #333;
+    font-size: 1.5em;
+    width: 10%;
+    min-width: 180px;
+}
+.button {
+  margin: 0.5em auto;
 }
 
-/* Light mode */
-
-@media(prefers-color-scheme: light) {
-	html {
-		background-color: #bbbbbb;
-		padding: 0px;
-	}
-	body {
-		width: 80%;
-		min-height: calc(100vh - 4em);
-		margin: 0 auto;
-		padding: 2em;
-		background-color: #dddddd;
-		border-color: #eeeeee;
-		border-left-style: solid;
-		border-right-style: solid;
-		border-width: 20px;
-	}
-	p {
-		color: #444444;
-		font-family: 'Roboto', sans-serif;
-		font-size: 16pt;
-		line-height: 1;
-		margin: 4pt;
-	}
-	p.value-description {
-		text-indent: -16pt;
-		margin-left: 20pt;
-	}
-	p.question {
-		margin: 16pt auto;
-		color: #333333;
-		font-family: 'Montserrat', sans-serif;
-		font-weight: normal;
-		width: 70%;
-		min-width: 500pt;
-		min-height: 144pt;
-		background-color: #eeeeee;
-		padding: 16pt;
-		border-radius: 16pt;
-		font-size: 36pt;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-	}
-	p.result {
-		margin: 16pt auto;
-		color: #333333;
-		font-family: 'Montserrat', sans-serif;
-		font-weight: normal;
-		width: 70%;
-		min-width: 500pt;
-		min-height: 144pt;
-		padding: 16pt;
-		border-radius: 16pt;
-		font-size: 48pt;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-	}
-	p.description {
-		margin: 16pt auto;
-		color: #333333;
-		font-family: 'Montserrat', sans-serif;
-		font-weight: normal;
-		width: 70%;
-		min-width: 500pt;
-		min-height: 144pt;
-		background-color: #eeeeee;
-		padding: 16pt;
-		border-radius: 16pt;
-		font-size: 36pt;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-	}
-	h1 {
-		color: #222222;
-		font-family: 'Montserrat', sans-serif;
-		font-size: 72pt;
-		text-align: center;
-		line-height: 72pt;
-		margin-top: 0pt;
-		margin-bottom: 0pt;
-	}
-	h2 {
-		color: #333333;
-		font-family: 'Montserrat', sans-serif;
-		font-size: 36pt;
-		line-height: 36pt;
-		margin-top: 12pt;
-		margin-bottom: 0pt;
-	}
+/*Results.html*/
+#results_title {
+  margin-bottom: 0px;
+}
+#image {
+    display: block;
+    margin: 2% auto;
+    max-width: 50%;
+    height: auto;
+    border-radius: 2em;
+}
+#result {
+    font-size: 3em;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+#desc {
+    font-size: 1.5em;
+    width: 65%;
+    margin: auto;
+    text-align: center;
+}
+#indexbutton, #creditsbutton {
+  max-width: 80%;
+  width: 30%;
+  min-width: 400px;
+  margin: 0.8em auto;
+  font-size: 2em;
 }
 
+/*Github Corner*/
+.github-corner {
+  fill: #222;
+}
+.github-corner .octo-arm, .github-corner .octo-body {
+  fill: #DDD;
+}
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
 
-/* Dark mode*/
+@keyframes octocat-wave {
+  0%, 100% {
+    transform: rotate(0);
+  }
+  20%, 60% {
+    transform: rotate(-25deg);
+  }
+  40%, 80% {
+    transform: rotate(10deg);
+  }
+}
 
-@media(prefers-color-scheme: dark) {
-	html {
-		background-color: #000000;
-		padding: 0px;
-	}
-	body {
-		width: 80%;
-		min-height: calc(100vh - 4em);
-		margin: 0 auto;
-		padding: 2em;
-		background-color: #3b3b3b;
-		border-color: #505050;
-		border-left-style: solid;
-		border-right-style: solid;
-		border-width: 20px;
-	}
-	p {
-		color: #cccccc;
-		font-family: 'Roboto', sans-serif;
-		font-size: 16pt;
-		line-height: 1;
-		margin: 4pt;
-	}
-	p.value-description {
-		text-indent: -16pt;
-		margin-left: 20pt;
-	}
-	p.question {
-		margin: 16pt auto;
-		color: #cccccc;
-		font-family: 'Montserrat', sans-serif;
-		font-weight: normal;
-		width: 70%;
-		min-width: 500pt;
-		min-height: 144pt;
-		background-color: #000000;
-		padding: 16pt;
-		border-radius: 16pt;
-		font-size: 36pt;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-	}
-	p.result {
-		margin: 16pt auto;
-		color: #cccccc;
-		font-family: 'Montserrat', sans-serif;
-		font-weight: normal;
-		width: 70%;
-		min-width: 500pt;
-		min-height: 144pt;
-		padding: 16pt;
-		border-radius: 16pt;
-		font-size: 48pt;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-	}
-	p.description {
-		margin: 16pt auto;
-		color: #cccccc;
-		font-family: 'Montserrat', sans-serif;
-		font-weight: normal;
-		width: 70%;
-		min-width: 500pt;
-		min-height: 144pt;
-		background-color: #000000;
-		padding: 16pt;
-		border-radius: 16pt;
-		font-size: 36pt;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-	}
-	h1 {
-		color: #cccccc;
-		font-family: 'Montserrat', sans-serif;
-		font-size: 72pt;
-		text-align: center;
-		line-height: 72pt;
-		margin-top: 0pt;
-		margin-bottom: 0pt;
-	}
-	h2 {
-		color: #cccccc;
-		font-family: 'Montserrat', sans-serif;
-		font-size: 36pt;
-		line-height: 36pt;
-		margin-top: 12pt;
-		margin-bottom: 0pt;
-	}
+@media (prefers-color-scheme: dark) {
+    html{
+        background-color: #222;
+        color: #FFF;
+        scrollbar-color: #DDD #333;
+    }
+    ::-webkit-scrollbar-track {
+      background: #222;
+    }
+    ::-webkit-scrollbar-thumb {
+      border: 2px solid #222;
+      background-color: #CCC;
+    }
+    select, option {
+        background-color: #000;
+        color: #FFF;
+    }
+    #question {
+        background-color: #000;
+    }
+    a {
+      color:#2196f3
+    }
+    a:link {
+      color:#2196f3
+    }
+    a:visited {
+      color: darkviolet;
+    }
+    .github-corner {
+      fill: #DDD;
+    }
+    .github-corner .octo-arm, .github-corner .octo-body {
+      fill: #222;
+    }
+}
+
+@media screen and (max-width: 800px) {
+  html {
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle; 
+  }
+  body{
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  h1 {
+    font-size: 12vw;
+  }
+  #quiz_title {
+    font-size: 10vw;
+  }
+  #results_title {
+    font-size: 8vw;
+  }
+  h2 {
+    font-size: 8vw;
+  }
+  p {
+    font-size: 5vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+  select {
+    margin: 2 auto;
+  }
+  #startbutton, #indexbutton, #creditsbutton, #returnbutton {
+    max-width: 80%;
+    width: 80%;
+    min-width: 80%;
+    margin: 0.8em auto;
+    font-size: 6vw;
+  }
+  #startbutton {
+    font-size: 6vw;
+  }
+  #buttonholder{
+    margin: 0 auto;
+    width: 100%;
+  }
+  .button {
+    font-size: 6vw;
+    width: 80%;
+    min-width: 0px;
+  }
+  #back_button {
+    min-width: 40%;
+  }
+  #question{
+    padding: 2vw;
+    border: 1vw;
+    margin: 0 auto;
+    margin-bottom: 8vw;
+    font-size: 7vw;
+    max-height: 50%;
+    min-height: 10%;
+    height: 25%;
+  }
+  #back_button{
+    font-size: 5vw;
+  }
+  #image {
+    max-width: 80%;
+  }
+  #result {
+    font-size: 8vw;
+  }
+  #desc {
+    font-size: 5vw;
+    width: 80%;
+  }
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
 }

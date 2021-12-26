@@ -1,0 +1,18 @@
+{
+  "index":{
+    "title": "Ideosorter",
+    "text": "<h2>O que é o Ideosorter?</h2><p>Ideosorter é, em essência, um teste político que atempta atribuir uma ideologia que se aproxima dos seus ideais politicos perguntando questões orientadas num estilo de um fluxograma. Este teste irá atribuir-lhe uma de <span id='ideo_lenght'></span> diferentes ideologias politicas com base nas suas repostas às questões dadas; talvês descobirá algo que não conhece sobre si!</p><h2>Eu não entendo uma das questões!</h2><p>Se houver algo que não preceba nõs tentamos utilizar terminologia o mais fácil de pesquisar possivel e se houver algo não claro, pode contactar-nos com quaisquer comentários de modo a podermos fazer alterações ao teste!</p><h2>Eu não gosto da ideologia que me foi designada!</h2><p>¯\\_(ツ)_/¯</p>",
+    "start": "Clique aquí para começar!",
+    "contacts": "Contactos:",
+    "contact_info": "<p>TheGhostOfInky#9229</p><p>theghostofinky@gmail.com</p><p><a href=\"https://github.com/Ideosorter/ideosorter.github.io\">Página Github</a></p>"
+  },
+  "quiz":{
+    "title": "Ideosorter - Teste",
+    "back": "Anterior"
+  },
+  "results":{
+    "title": "Ideosorter - Resultados",
+    "back": "Voltar ao índice",
+    "credits": "Créditos"
+  }
+}
