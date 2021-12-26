@@ -51,7 +51,7 @@ async function load_ui(quiz){
     await fetch(`./json/${lang}/buttons-${lang}.json`)
         .then(response => response.json())
         .then(data => buttons = data)
-        .catch(document.getElementById("question").innerHTML = "An error has occurred loading this page, please reload.")
+        .catch(document.getElementById("question").innerHTML = "Loading..., if this message takes too long please reload.")
     fetch(`./json/${lang}/questions-${lang}.json`)
         .then(response => response.json())
         .then(data => load_questions(data))
