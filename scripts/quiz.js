@@ -48,10 +48,8 @@ async function load_ui(quiz){
     } else {
         document.getElementById("back_button").style.display = "none"
     }
-    await fetch(`./json/${lang}/buttons-${lang}.json`)
+    buttons = await fetch(`./json/${lang}/buttons-${lang}.json`)
         .then(response => response.json())
-        .then(data => buttons = data)
-        .catch(document.getElementById("question").innerHTML = "Loading..., if this message takes too long please reload.")
     fetch(`./json/${lang}/questions-${lang}.json`)
         .then(response => response.json())
         .then(data => load_questions(data))
