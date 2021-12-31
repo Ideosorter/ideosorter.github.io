@@ -25,6 +25,7 @@ function prev_question(){
 }
 
 function init_question() {
+    console.log(questions,buttons)
     document.getElementById("question").innerHTML = questions[questionId]["question"]
     let buttonHTML = ""
     let answers = questions[questionId].answers
@@ -33,12 +34,6 @@ function init_question() {
         buttonHTML += `<button class="button" onclick="next_question('${answers[i]}')" style="background-color:${button.bgcolor}; color:${button.textcolor};">${button.text}</button>`
     }
     document.getElementById("buttonholder").innerHTML = buttonHTML
-}
-
-function load_questions(data){
-    questions = data
-    questionId = Object.keys(data)[0]
-    init_question()
 }
 
 async function load_ui(quiz){
@@ -50,9 +45,10 @@ async function load_ui(quiz){
     }
     buttons = await fetch(`./json/${lang}/buttons-${lang}.json`)
         .then(response => response.json())
-    fetch(`./json/${lang}/questions-${lang}.json`)
+    questions = await fetch(`./json/${lang}/questions-${lang}.json`)
         .then(response => response.json())
-        .then(data => load_questions(data))
+    questionId = Object.keys(questions)[0]
+    init_question()
 }
 
 function parse_langs(data){
