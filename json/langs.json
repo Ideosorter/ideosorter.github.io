@@ -10,6 +10,11 @@
     "authors": "<li> <a href=\"https://github.com/lixiang810\" >lixiang810</a></li>"
   },
   {
+    "id":"ko",
+    "name":"한국어",
+    "authors": "<li> <a href=\"https://github.com/weltre\" >weltre</a></li>"
+  },
+  {
     "id":"cs",
     "name":"Čeština (Not finished)",
     "authors": "<li> <a href=\"https://github.com/Vizdun\" >Vizdun</a></li><li> <a href=\"https://github.com/Tomaasci\" >Tomaasci</a></li>"
