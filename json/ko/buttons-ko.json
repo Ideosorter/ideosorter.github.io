@@ -10,7 +10,7 @@
     "textcolor": "#000"
   },
   "nostate": {
-    "text": "국가가 존재해서는 안 된다",
+    "text": "국가를 철폐하라",
     "bgcolor": "#111",
     "textcolor": "#fff"
   },
@@ -60,12 +60,12 @@
     "textcolor": "#000"
   },
   "welfare": {
-    "text": "복지",
+    "text": "여전히 복지가 필요하다",
     "bgcolor": "#f0cb11",
     "textcolor": "#000"
   },
   "noneed": {
-    "text": "필요하지 않다",
+    "text": "더는 필요하지 않다",
     "bgcolor": "#50e024",
     "textcolor": "#000"
   },
@@ -75,7 +75,7 @@
     "textcolor": "#fff"
   },
   "classnation": {
-    "text": "계급이나 민족(국가)",
+    "text": "계급/민족(국가)",
     "bgcolor": "#821212",
     "textcolor": "#fff"
   }
