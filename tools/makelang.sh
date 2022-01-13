@@ -1,5 +1,5 @@
 cd ../json
-echo "input your new language prefix's (eg: en/es/fr/de):"
+echo "input your new language's prefix (eg: en/es/fr/de):"
 read newlang
 cp -R ./en ./$newlang
 cd $newlang
