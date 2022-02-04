@@ -6,5 +6,5 @@ Ideosorter is a flowchart based interactive political quiz that attempts to brin
  - **Back button requirements**:
    - A browser that supports ECMAScript 2022, in particular the [Array.prototype.at()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/at) method, currently supported by the latest version of all major browsers but Safari (Currently only available in TP).
 
-## Contributisng
+## Contributing
  Check the [CONTRIBUTING.md](https://github.com/Ideosorter/ideosorter.github.io/blob/master/CONTRIBUTING.md) file for intructions and guidelines on contributing to this project
