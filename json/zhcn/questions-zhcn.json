@@ -50,7 +50,7 @@
     }
   },
   "scope_of_government1": {
-    "question": "政府规模应当被限制吗？",
+    "question": "政府的管辖范围应当被限制吗？",
     "answers": [
       "yes",
       "no",
@@ -274,7 +274,7 @@
     "nextquestion": {}
   },
   "scope_of_government2": {
-    "question": "政府规模应当被限制吗？",
+    "question": "政府的管辖范围应当被限制吗？",
     "answers": [
       "yes",
       "no",
