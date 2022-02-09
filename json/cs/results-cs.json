@@ -1,230 +1,230 @@
 {
   "4theory": {
-    "result": "Jste Čtvrtým teoretikem",
+    "result": "Jste čtvrtý teoretik",
     "desc": "Čtvrtá politická teorie je ideologie vymyšlena ruským politickým analytikem Aleksandrem Duginem, snažící se najít nobou politickou teorii mimo liberalismus, marxismus a fašismus."
   },
   "agorism": {
-    "result": "Jste agoristou",
-    "desc": "Agorismus je ideologie vymyšlena Samuelem Edwardem Konkinem III, snažící se nastolit společnost, v níž všechny výměny jsou dobrovolné, prostředkem účastnění se kontraekonomických aktivit."
+    "result": "Jste agorista",
+    "desc": "Agorismus je ideologie vymyšlena Samuelem Edwardem Konkinem III, snažící se nastolit společnost, v níž všechny výměny jsou dobrovolné, prostředkem účasti v kontraekonomických aktivitách."
   },
   "agsoc": {
-    "result": "You're an Agrarian Socialist",
-    "desc": "Agrarian Socialism is an ideology that seeks to combine an agrarian lifestyle and socialist economic system, mostly focusing on land redistribution and social ownership of land."
+    "result": "Jste agrární socialista",
+    "desc": "Agrární socialismus je ideologie snažící se zkombinovat agrární život a socialistický ekonomický systém, soustředící se hlavně na přerozdělování půdy a společenské vlastnictví."
   },
   "ancap": {
-    "result": "You're an Anarcho-Capitalist",
-    "desc": "Anarcho-Capitalism, also called Voluntaryism, is an ideology that advocates for the creation of a stateless society based on property rights and the Non-Aggression Principle."
+    "result": "Jste anarchokapitalista",
+    "desc": "Anarchokapitalismus (také zvaný voluntarismus) je ideologie obhajující vznik bezvládní společnosti založené na právech k soukromému vlastníctví a principu neagrese."
   },
   "ancol": {
-    "result": "You're an Anarcho-Collectivist",
-    "desc": "Anarcho-Collectivism is an ideology that seeks to establish a stateless society with worker owned means of production and exchange of goods for labour notes, representative of the labour of the worker."
+    "result": "Jste anarchokolektivista",
+    "desc": "Anarchokolektivismus je ideologie snažící se o vytvoření bezvládní společnosti s prostředky výroby vlastněnými dělníky a směnou zboží za pracovní poukázky reprezentující práci dělníka."
   },
   "ancom": {
-    "result": "You're an Anarcho-Communist",
-    "desc": "Anarcho-Communism is an ideology that seeks to establish a stateless, classless and moneyless society based on a mutual aid gift economy."
+    "result": "Jste anarchokomunista",
+    "desc": "Anarchokomunismus je ideologie snažící se nastolit bezvládní, beztřídní a bezpeněžita společnost založenou na dárkové ekonomice vzájemné pomoci."
   },
   "angeo": {
-    "result": "You're a Geoanarchist",
-    "desc": "Geo-anarchism is an ideology that advocates for the establishment of a stateless society where private ownership of businesses is present but land is commonly owned and its usage is taxed to a mutual community fund."
+    "result": "Jste geoanarchista",
+    "desc": "Geoanarchismus je ideologie obhajující nastoliení bezvládní společnosti, kde je přitomno soukromé vlastnictví firem, ale jejich použití je zdaněno do komunitního vzájemného fondu."
   },
   "anprim": {
-    "result": "You're an Anarcho-Primitivist",
-    "desc": "Anarcho-Primitivism is an ideology that advocates for a return to pre-civilization life. It is unique in its opposition to agrculture and pecuary and the embracing of a hunter-gatherer lifestyle"
+    "result": "Jste anarchoprimitivista",
+    "desc":"Anarchoprimitivismus je ideologie obhajující návrat k životu před civilizací. Tato ideologie je unikátní v její opozici k zemědělství a přijmutí životního stylu lovce-sběrače."
   },
   "ansynd": {
-    "result": "You're an Anarcho-Syndicalist",
-    "desc": "Anarcho-Syndicalism is an ideology that seeks to use the power of workers' movements to establish a post-capitalist stateless society based on worker ownership of the means of production"
+    "result": "Jste anarchosyndikalista",
+    "desc": "Anarchosyndikalismus je ideologie snažící se o využití moci dělnických hnutí na vytvoření postkapitalistické bezvládní společnosti založené na dělníky vlastněných prostředcích výroby."
   },
   "bhl": {
-    "result": "You're a Bleeding-Heart Libertarian",
-    "desc": "Bleeding-Heart Libertarianism is an ideology that deems that an expansion of civil liberties will be the most benefitial to the disadvanatged"
+    "result": "Jste neoklasický libertarián",
+    "desc": "Neoklasický libertarianismus je ideologie považující rozšíření občanských práv za nejvíce prospěšné znevýhodněným."
   },
   "bordiga": {
-    "result": "You're a Bordigist/Italian Left-Communist",
-    "desc": "Italian Left Communism is an ideology that takes a staunchly anti-revisionist approach to Marx and Lenin's works, being extremely critical of their sucessors' developments"
+    "result": "Jste bordigista",
+    "desc": "Italský levý komunismus je ideologie, která má neochvejně antirevisionistický přístup k dílům Marxe a Lenina, k jejimž následnovníkům je velmi kritická."
   },
   "castro": {
-    "result": "You're a Castroist",
-    "desc": "Castroism is an ideology derived from Fidel Castro's application of Marxism–Leninism to the conditions of Cuba, mostly differening in the role of the vanguard party"
+    "result": "Jste castrista",
+    "desc": "Castrismus je ideologie vytvořená z aplikace marxismu-leninismu na podmínky Kuby, většinově se odlišující v roli avantgardní strany."
   },
   "fascism": {
-    "result": "You're a Classical Fascist",
-    "desc": "Fascism is a form of far-right, authoritarian ultranationalism characterized by dictatorial power, forcible suppression of opposition and strong regimentation of society and of the economy"
+    "result": "Jste klasický fašista",
+    "desc": "Fašismus je forma krajně pravicového autoritářského ultranacinalismu charakterizovaného diktátorskou mocí, násilným potlačováním opozice a silnou regimentací společnosti a ekonomiky."
   },
   "clerfash": {
-    "result": "You're a Clerical Fascist",
-    "desc": "Clerical fascism is an ideology that combines the political and economic doctrines of fascism with clericalism"
+    "result": "Jste klerofašista",
+    "desc":"Klerofašismus je ideologie kombinující politické a ekonomické doktríny fašismu s klerikalismem."
   },
   "councom": {
-    "result": "You're a Council Communist",
-    "desc": "Council Communism is an ideology that deems that a sucessful socialist society must be one managed by workers' councils and not political parties"
+    "result": "Jste radní komunista",
+    "desc": "Radní komunismus je ideologie tvrdící, že úspěšná socialistická společnost musí být řízena dělnickými radami a nikoliv politickými stranami."
   },
   "deleon": {
-    "result": "You're a De Leonist",
-    "desc": "De Lenism is an ideology that combines syndicalist labor organization with Marxist ideas such as the concept of a Dictatorship of the Proletariat"
+    "result": "Jste de leonista",
+    "desc":"De leonismus je ideologie kombinující syndikalistickou organizaci práce s marxistickými nápady, jako například koncept diktatury proletariátu."
   },
   "demsoc": {
-    "result": "You're a Democatic Socialist",
-    "desc": "Democratic Socialism is an ideology that seeks to establish socialism through reform and electoral processes as opposed to revoluitionary means"
+    "result": "Jste demokratický socialista",
+    "desc": "Demokratický socialismus je ideologie snažící se vytvořit socialismus za pomocí reforem a volebních procesů, nikoliv revolučně."
   },
   "deng": {
-    "result": "You're a Dengist/Socialist with Chinese Characteristics",
-    "desc": "Socialism with Chinese Characteristics is an ideology that deems that a stage of state managed capitalism is necessary to create the conditions necessary for a sucessful socialist society"
+    "result": "Jste dengista",
+    "desc": "Dengismus je ideologie považující období státem spravovaného kapitalismu za nezbytné v tvorbě úspěšné socialistické společnosti."
   },
   "distributism": {
-    "result": "You're a Distributist",
-    "desc": "Distributism is a third-way, free market, center-right ideology"
+    "result": "Jste distributista",
+    "desc": "Distributismus je středopravicová ideologie třetí cesty, prosazující volný trh."
   },
   "geolib": {
-    "result": "You're a Geolibertarian",
-    "desc": "Geolibertarianism is an ideology that incorpotates the georgist principles of free trade, free land and the value taxes with the liberatarian principle of minimal government."
+    "result": "Jste geolibertarián",
+    "desc": "Geolibertarianismus je ideologie směšující georgistické principy volného obchodu, volné půdy a daní z hodnoty pozemku s libertariánským principem minimální moci vlády"
   },
   "georgism": {
-    "result": "You're a Georgist",
-    "desc": "Georgism is an ideology that deems that for a truly free market to exist first the monopoly on land must be broken. It advocates for a land value tax that if implemented properly will in essence decomofify land ownership"
+    "result": "Jste georgista",
+    "desc": "Georgismus je ideologie tvrdící, že pro skutečně volný trh je potřeba rozbít monopol pozemků. Tato ideologie prosazuje daň z hodnoty pozemku, která při správné implementaci dekomodifikuje vlastnictví půdy."
   },
   "leftroth": {
-    "result": "You're a Left-Rothbardian",
-    "desc": "Left-Rothbardianism is a left-wing inspired take on traditional Rothbardian Anarcho-Capitalism that sees an Anarcho-Capitalist society as the ideal place to achieve traditionally left wing goals such as social and economic equality."
+    "result": "Jste levicový rothbardianista",
+    "desc": "Levicový rothbardianismus je levicová reakce na tradiční rothbardovský anarchokapitalismus, která vidí anarchokapitalistickou společnost jako ideální místo na dosažení tradičně levicových cílů, jako je sociální a ekonomická rovnost."
   },
   "libert": {
-    "result": "You're a Right-Libertarian",
-    "desc": "Right-libertarianism is an ideology that supports capitalist property rights and defends market distribution of natural resources and private property"
+    "result": "Jste pravicový libertarián",
+    "desc": "Pravicový libertarianismus je ideologie podporující kapitalistická práva na soukromé vlastnictví a obraňuje tržní distribuci přírodních zdrojů a soukromé vlastnictví"
   },
   "libsoc": {
-    "result": "You're a Libertarian Socialist",
-    "desc": "Libertarian Socialism is an ideology that deems that the means of production should be owned and managed by their workers with the state providing little to no interference in the economy, contrasted to the ideas of state ownership of State Socialism"
+    "result": "Jste socialistický libertarián",
+    "desc": "Libertariánský socialismus je ideologie tvrdící, že prostředky výroby by měly být přímo vlastněny a spravovány dělníky s minimální státní interferencí v ekonomice, a nikoliv vlastněny státem, jak smýšlí státní socialismus."
   },
   "lib": {
-    "result": "You're a Keynesian Liberal",
-    "desc": "Keynesian liberalism is an form of liberal capitalism that deems that for the market to function in an adequate way it must be under the supervision of an interventionist state"
+    "result": "Jste keynesiánský liberál",
+    "desc": "Keynesiánský liberalismus je forma liberálního kapitalismu tvrdící, že k adekvátní funkci trhu je nutné, aby trh byl pod dohledem intervencionistického státu."
   },
   "luxem": {
-    "result": "You're a Luxemburgist",
-    "desc": "Luxemburgism is a Marxist-Communist, Libertarian, anti-war, and extremely progressive ideology that believes that the Dictatorship of the Proletariat should be run by democratic workers councils and unions, rather than a Socialist Party."
+    "result": "Jste luxembugista",
+    "desc": "Luxemburgismus je marxistická, libertariánská, protiválečná a velmi progresivní ideologie tvrdící to, že diktatura proletariátu by měla být provozována demokratickými radami dělníků a nikoliv socialistickou stranou."
   },
   "lwma": {
-    "result": "You're a Left-Wing Market Anarchist",
-    "desc": "Left-Wing Market Anarchism is an ideology that seeks to establish a stateless society based on a post-capitalist market economy"
+    "result": "Jste levicový tržní anarchista",
+    "desc": "Levicový tržní anarchismus je ideologie snažící se vyvořit společnost založenou na postkapitalistické tržní ekonomice."
   },
   "mao": {
-    "result": "You're a Maoist",
-    "desc": "Maoism is a variety of Marxism–Leninism that Mao Zedong developed for realising a socialist revolution in the agricultural, pre-industrial society of China. The main difference being is that the peasantry are the revolutionary vanguard in pre-industrial societies rather than the proletariat."
+    "result": "Jste maoista",
+    "desc": "Maoismus je odrůda marxismu-leninismu vytvořena Mao Zedongem pro realizaci socialistické revoluce v zeměděleské, předindustriální společnosti v Číně. Její hlavní rozdíl je v tom, že revoluční snažení je vedeno hlavně sedlactvem namísto proletarátu."
   },
   "marksoc": {
-    "result": "You're a Market Socialist",
-    "desc": "Market socialism is an ideology that combines the socialist ideal of worker ownership of the means of production with the competition and resource allocation provided by a market economy"
+    "result": "Jste tržní socialista",
+    "desc": "Tržní socialismus je ideologie kombinující socialistický ideál vlastnictví výrobních prostředků dělníky s konkurencí a alokací zdrojů v tržní ekonomice."
   },
   "minarch": {
-    "result": "You're a Minarchist",
-    "desc": "Minarchism is an ideology that deems that the state's sole purposes are to protect its citizens' rights to property, bring criminals to justice and to guard the country's territory against any invasions."
+    "result": "Jste minarchista",
+    "desc": "Minarchismus je ideologie tvrdící, že jedinými účely státu by měla být ochrana svých občanů a jejich práv na vlastnictví, přinášet zlořince před soud a hlídat oblast země proti invazím."
   },
   "mlm": {
-    "result": "You're a Marxist–Leninist–Maoist",
-    "desc": "Marxism–Leninism–Maoism is an ideology devised by the Communist Party of Peru that synthesizes the ideas of Marxism–Leninism and Maoism, rejecting certain aspects from the latter like the 3 worlds theory."
+    "result": "Jste marxista-leninista-maoista",
+    "desc": "Marxismus-leninismus-maoismus je ideologie vytvořená Komunistickou stranou Peru, míchající názory marxismu-leninismu a maoismu, přičemž z druhého odmítá určité aspekty, jako je například teorie tří světů."
   },
   "ml": {
-    "result": "You're a Marxist–Leninist",
-    "desc": "Marxism–Leninism is an ideology that deems that establishing and developing socialism in 1 country is a necessity before exporting the revoltion to neighbouring states, an idea that contrasts with the Trotskyist ideal of permanent revolution."
+    "result": "Jste marxista-leninista",
+    "desc": "Marxismus-leninismus je ideologie tvrdící, že nastolení a doplňování socialismu je nutnost před vývozem revoluce do okolních zemí, čímž se odlišuje od trotckistického ideálu permanentní revoluce."
   },
   "mutualism": {
-    "result": "You're a Mutualist",
-    "desc": "Mutualism is an ideology who seeks to establish a stateless society based around a combination of free trade of goods between individuals, as long as a mutual credit bank and mutual aid structures."
+    "result": "Jste mutualista",
+    "desc": "Mutualismus je ideologie snažící se vytvořit bezvládní společnost založenou na volném obchodu se zbožím mezi individuály při existenci vzájemné úvěrové banky a struktur vzájemné pomoci."
   },
   "natan": {
-    "result": "You're a National Anarchist",
-    "desc": "National Anarchism is an ideology that seeks to establish a stateless society made up of ethno-communes based on a meritocratic mutualist economic system."
+    "result": "Jste národní anarchista",
+    "desc": "Národní anarchismus je ideologie snažící se vytvořit bezvládní společnost vytvořenou z etnicky omezených komun založenou na meritokratickém ekonomickém systému."
   },
   "natsynd": {
-    "result": "You're a National Syndicalist",
-    "desc": "National syndicalism is an adaptation of syndicalism to suit the social agenda of integral nationalism."
+    "result": "Jste národní syndikalista",
+    "desc": "Národní syndikalismus je adaptace syndikalismu pro potřeby sociální agendy integrálníního nacionalismu."
   },
   "nazbol": {
-    "result": "You're a National Bolshevik",
-    "desc": "National Bolshevism is a political movement that combines elements of fascism and Bolshevism"
+    "result": "Jste národní bolševik",
+    "desc": "Národní bolševismus je politické hnutí, které kombinuje prvky fašismu a bolševismu."
   },
   "nazcap": {
-    "result": "You're a National Capitalist",
-    "desc": "National Capitalism is an economically right wing, culturally traditionalist, nationalist and fascist ideology"
+    "result": "Jste národní kapitalista",
+    "desc": "Národní kapitalismus he ekonomicky pravicová, kulturně tradicionalistická, nacionalistická a fašistická ideologie."
   },
   "nazi": {
-    "result": "You're a National Socialist",
-    "desc": "National Socialism is a form of fascism, with disdain for liberal democracy and the parliamentary system. It incorporates fervent antisemitism, anti-communism, scientific racism, and the use of eugenics into its creed."
+    "result": "Jste národní socialista",
+    "desc": "Národní socialismus je forma fašismu pohrdající liberální demokracií a parlamentním systémem vlády. Míchá vášnivý antisemitismus, antikomunismus, vědecký racismus a používání eugeniky."
   },
   "neocon": {
-    "result": "You're a Neoconservative",
-    "desc": "Neoconservativism promotes democracy and interventionism in international affairs, including peace through strength, and are known for espousing disdain for communism and political radicalism."
+    "result": "Jste neokonzervativec",
+    "desc":"Neokonzervatismus podporuje demokracii a intervencionismus v mezinárodních záležitostech, jako je třeba myšlenka 'mír skrz sílu'. Tato ideologie je známá pro pohrdání komunismem a politickým radkalismem."
   },
   "neolib": {
-    "result": "You're a Neoliberal",
-    "desc": "Neoliberalism is a fusion of neoclassical and Keynesian economic ideas that seeks to strike a balance between regulations and Laissez-Faire"
+    "result": "Jste neoliberál",
+    "desc": "Neoliberalismus je sloučení neoklasických a keynesiánských ekonomických myšlenek snažící se najít rovnováhu mezi regulacemi a volným trhem."
   },
   "orthmarx": {
-    "result": "You're an Orthodox Marxist",
-    "desc": "Orthodox Marxism is an economically far left, progressive ideology that looks to achieve a communist society, a stateless, classless, moneyless society."
+    "result": "Jste ortodoxní marxista",
+    "desc": "Ortodoxní marxismus je ekonomicky krajně levicová a progresivní ideologie snažící se vytvořit komunistickou společnost, která by byla bezvládní, beztřídní a bezpeněžitá."
   },
   "paleobert": {
-    "result": "You're a Paleolibertarian",
-    "desc": "Paleolibertarianism is an ideology developed by American anarcho-capitalist theorists Murray Rothbard and Lew Rockwell that combines traditional conservative cultural values and social philosophy with a libertarian opposition to government intervention."
+    "result": "Jste paleolibertarián",
+    "desc": "Paleolibertarianismus je ideologie vytvořená americkými teoretiky anarchokapitalismu Murrayem Rothbardem a Lewem Rockwellem kombinující tradiční konzervativní kulturní hodnoty a sociální filozofii s libertáriánskou opozicí k vládním zásahům do ekonomiky."
   },
   "paleocon": {
-    "result": "You're a Paleoonservative",
-    "desc": "Paleoconservatism is a form of conservatism that orignally manifestated itself in the isolationist factions of American conservatism who opposed the Vietnam war. Paleoconservatives also commonly oppose free global trade, taking a very protectionist approach with strong tarrifs."
+    "result": "Jste paleokonervativec",
+    "desc": "Paleokonzervatismus je forma konzervatismu, která se původně objevila v izolacionistických oddílech amerického konzervatismu, které se stavěly proti vietnamské válce. Paleokonzervativci také většinou odmítají volný glóbalní trh, kde preferují protekcionistický přístup se silnými cly."
   },
   "patcon": {
-    "result": "You're a Paternalistic Conservative",
-    "desc": "Paternalistic conservatism is an ideolody that seeks to combine the social democratic principles of regulated capitalism and strong labour unions with traditional values."
+    "result": "Jste paternalistický konzervativec",
+    "desc": "Paternalistický konzervatismus je ideologie snažící se zkombinovat sociálně demokratické principy regulovaného kapitalismu a silné odbory práce s tradičními hodnotami."
   },
   "posadism": {
-    "result": "You're a Posadist",
-    "desc": "Posadism is a radically accelerationist form of Trostksyism that deems nuclear destruction of captalist society as a necessity to establish socialism globally (with some help of our alien comrades, of course)"
+    "result": "Jste posadista",
+    "desc": "Posadismus je radikálně akcelerativní forma trotskyismu považující jaderné zničení kapitalistické společnosti za nutnost k nastolení celosvětového socialismu (samozřejmě s malou pomocí našich mimozemkých soudruhů)."
   },
   "situationist": {
-    "result": "You're a Situationist",
-    "desc": "Situationism is a movement of avant-garde libertarian marxists who focused primarily on criticizng capitalism through artistic means"
+    "result": "Jste situacionista",
+    "desc": "Situacionismus je hnutí avantgardních libertariánských marxistů zaměřujících se prvořadně na kritiku kapitalismu za pomoci umění."
   },
   "socbert": {
-    "result": "You're a Social Libertarian",
-    "desc": "Social Libertarianism is a form of Bleeding-Heart Libertarianism that deems that a universal basic income, combined with maximum individual freedoms, is a necessity to achieve a fair society for all including the most socially disadvantaged"
+    "result": "Jste sociální libertarián",
+    "desc": "Sociální libertarianismus je forma 'libertarianismu krvácejícího srdce' tvrdící to, že univerzální základní příjem zkombinovaný s maximem osobních svobod je nutnost při vytvoření spravedlivé společnosti pro všechny, včetně těch nejvíce sociálně znevýhodněných."
   },
   "socdem": {
-    "result": "You're a Social Democrat",
-    "desc": "Social Democracy is an ideology that seeks to establish a society whereby capitalism is restricted and controlled by the state and strong labour unions in order to achieve bennefitial outcomes to the working class."
+    "result": "Jste sociální demokrat",
+    "desc": "Sociální demokracie je ideologie snažící se nastolit společnost, kde kapitalismus je regulován a řízen státem a silnými pracovními odbory s cílem dosažení prospěšných výsledků pro dělnickou třídu."
   },
   "socgeo": {
-    "result": "You're a Social Georgist",
-    "desc": "Social Georgism is an ideology that deems that Georgist principles of public land ownership and land value tax prefectly complement a free market welfarist society, the most prominent advocate of this ideology is Chinese revolutionary and first president of the Republic of China, Sun Yat-Sen"
+    "result": "Jste sociální georgista",
+    "desc": "Sociální georgismus je ideologie , která tvrdí, že georgistické principy veřejného vlastnictví půdy a daně z hodnoty pozemku perfektně doplňují volnotržní welfaristickou společnost. Nejvýraznější advokát této ideologie je čínský revolucionář a první prezident Čínské repuliky, Sunjatsen"
   },
   "socnat": {
-    "result": "You're a Social Nationalist",
-    "desc": "Social Nationalism is a form of nationalism based upon national self-determination, popular sovereignty and social equality"
+    "result": "Jste sociální nacionalista",
+    "desc": "Sociální nacionalismus je forma nacionalismu založená na národním sebeurčení, populární samostatnosti a socální rovnosti."
   },
   "statesoc": {
-    "result": "You're a State Socialist",
-    "desc": "State Socialism is an ideology that deems that the means of production should be owned and managed by the state, contrasted to the ideals of Libertarian Socialism"
+    "result": "Jste státní socialista",
+    "desc": "Státní socialismus je ideologie tvrdící, že prostředky výroby by měly být vlastněny a spravovány státem, nikoliv jako u libertariánského socialismu."
   },
   "strasser": {
-    "result": "You're a Strasserist",
-    "desc": "Strasserism is an ideology popularized by the Strasser brothers that seeks to blend left wing economics with right wing ultrantionalism."
+    "result": "Jste strasserista",
+    "desc": "Strasserismus je ideologie popularizovaná bratry Strassery snažící se sloučit levicovou ekonomiku a pravicový ultranacionalismus."
   },
   "synd": {
-    "result": "You're a Syndicalist",
-    "desc": "Syndicalism is an ideology that seeks to advance the demands and rights of workers through strikes."
+    "result": "Jste syndikalista",
+    "desc": "Syndikalismus je ideologie snažící se rozšířit potřeby a práva dělníků prostřednictvím stávek."
   },
   "technocracy": {
-    "result": "You're a Technocrat",
-    "desc": "Technocracy is an ideology that deems that the state and the economy should be ran by experts of their given field as opposed to elected/inherited politicians and businessmen"
+    "result": "Jste technokrat",
+    "desc": "Technokracie je ideologie tvrdící, že stát a ekonomie by měly být řízeny experty svého oboru místo zvolených/vyděděných politiků a podnikatelů"
   },
   "theocracy": {
-    "result": "You're a Theocrat",
-    "desc": "A theocracy is an ideology where the rulers are meant to act as representatives of a deity and enforce the laws of their given religion upon the citizens"
+    "result": "Jste teokrat",
+    "desc": "Teokracie je ideologie, kde vládci jsou určeni k jednání jako reprezentace božstva a vynucování zákonů jejich náboženství na občany."
   },
   "tito": {
-    "result": "You're a Titoist",
-    "desc": "Titoism is an ideology that seeks to combine the vanguardist nature of Leninism with a market socialist economy and worker owned means of production"
+    "result": "Jste titoista",
+    "desc": "Titoismus je ideologie snažící se zkombinovat avantgardní povahu leninismu s tržně socialistickou ekonomikou a prostředky výroby vlastněnými dělníky."
   },
   "trot": {
-    "result": "You're a Trotskyist",
-    "desc": "Trotskyism is an ideology that deems a permanent revoltuion across the world to be a necessity in establishing socialism, contrasting to the Marxist–Leninist idea of socialism in 1 country"
+    "result": "Jste trotskyista",
+    "desc": "Trotskyismus je ideologie tvrdící, že permanentní revoluce po celém světě je nutnost k dosažení socialismu, čímž se odlišuje od marxistické-leninistické myšlenky socialismu v jedné zemi."
   }
 }
