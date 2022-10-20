@@ -45,7 +45,7 @@
   },
   "castro": {
     "result": "You're a Castroist",
-    "desc": "Castroism is an ideology derived from Fidel Castro's application of Marxism–Leninism to the conditions of Cuba, mostly differening in the role of the vanguard party"
+    "desc": "Castroism is an ideology derived from Fidel Castro's application of Marxism–Leninism to the conditions of Cuba, mostly differing in the role of the vanguard party"
   },
   "fascism": {
     "result": "You're a Classical Fascist",
@@ -64,8 +64,8 @@
     "desc": "De Leonism is an ideology that combines syndicalist labor organization with Marxist ideas such as the concept of a Dictatorship of the Proletariat"
   },
   "demsoc": {
-    "result": "You're a Democatic Socialist", 
-    "desc": "Democratic Socialism is an ideology that seeks to establish socialism through reform and electoral processes as opposed to revoluitionary means"
+    "result": "You're a Democratic Socialist", 
+    "desc": "Democratic Socialism is an ideology that seeks to establish socialism through reform and electoral processes as opposed to revolutionary means"
   },
   "deng": {
     "result": "You're a Dengist/Socialist with Chinese Characteristics",
