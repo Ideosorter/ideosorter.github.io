@@ -14,5 +14,9 @@
     "title": "Ideosorter - Výsledky",
     "back": "Zpět na index",
     "credits": "Autoři"
+  },
+  "tree":{
+    "title": "Ideosorter - Strom",
+    "info": "You can use arrows to navigate or mouse click to focus some path."
   }
 }

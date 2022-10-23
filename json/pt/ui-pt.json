@@ -14,5 +14,9 @@
     "title": "Ideosorter - Resultados",
     "back": "Voltar ao índice",
     "credits": "Créditos"
+  },
+  "tree":{
+    "title": "Ideosorter - Árvore",
+    "info": "Você pode usar as setas para navegar, ou clique para focar um caminho."
   }
 }

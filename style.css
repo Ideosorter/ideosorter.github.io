@@ -121,6 +121,85 @@ button {
   font-size: 2em;
 }
 
+/*Tree.html*/
+#page_tree {
+  width: auto;
+}
+#tree_title {
+  width: 100vw;
+}
+#tree_info {
+  margin: 0 0 1em 10vw;
+}
+#tree {
+  font-size: 20px;
+  padding: 0 2em;
+  overflow: auto;
+  user-select: none;
+}
+#tree article {
+  cursor: pointer;
+  position: relative;
+  font-size: 95%;
+  border: 1px solid #888;
+  border-radius: 10px;
+  padding: 1em;
+  background: #333;
+  filter: drop-shadow(0 0 1em rgba(0,0,0,.6));
+  min-width: 0em;
+  transition: 1s;
+}
+#tree article:focus {
+  background: #555;
+  min-width: 15em;
+  font-size: 120%;
+  transition: .5s;
+}
+#tree article:focus-within {
+  font-size: 20px;
+  background: #444;
+}
+#tree article:focus-within div {
+  font-size: 50%;
+}
+#tree span {
+  position: absolute;
+  top: -.9em;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: .3em .4em;
+  font-size: 90%;
+  line-height: .8em;
+  background: #888;
+  border-radius: 5px;
+  color: #333;
+}
+#tree strong {
+  font-weight: normal;
+  display: block;
+  text-align: center;
+}
+#tree p {
+  font-size: 1em;
+  margin: .5em 0 0 0;
+}
+#tree img {
+  width: 4em;
+  display: block;
+  margin: auto;
+  transition: 1s;
+}
+#tree article:focus-within img {
+  width: 10em;
+}
+#tree div {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
 /*Github Corner*/
 .github-corner {
   fill: #222;
@@ -191,7 +270,7 @@ button {
     margin: 0 auto;
     height: 100%;
     display: table-cell;
-    vertical-align: middle; 
+    vertical-align: middle;
   }
   body{
     text-align: center;
