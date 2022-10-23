@@ -14,5 +14,9 @@
     "title": "Ideosorter - Results",
     "back": "Return to Index",
     "credits": "Credits"
+  },
+  "tree":{
+    "title": "Ideosorter - Tree",
+    "info": "You can use arrows to navigate or mouse click to focus some path."
   }
 }
