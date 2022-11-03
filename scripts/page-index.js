@@ -1,5 +1,6 @@
 var langs = []
 var lang
+const langDropdown = document.getElementById("langDropdown")
 
 function load_ui(index){
     document.getElementById("title").innerHTML = index.title
@@ -13,10 +14,10 @@ function load_ui(index){
         .then(data => document.getElementById("ideo_lenght").innerHTML = Object.keys(data).length)
 }
 
-function langSelected(){
-    let i = document.getElementById("langDropdown").selectedIndex
+langDropdown.addEventListener("change", ()=> {
+    let i = langDropdown.selectedIndex
     location.href = `index.html?${langs[i]}`
-}
+})
 
 function parse_langs(data){
     for(let i=0; i < data.length; i++){
@@ -28,7 +29,7 @@ function parse_langs(data){
     } else {
         lang = "en"
     }
-    document.getElementById("langDropdown").selectedIndex = langs.indexOf(lang,0)
+    langDropdown.selectedIndex = langs.indexOf(lang,0)
     fetch(`./json/${lang}/ui-${lang}.json`)
         .then(response => response.json())
         .then(data => load_ui(data.index))

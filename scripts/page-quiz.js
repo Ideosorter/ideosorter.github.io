@@ -27,13 +27,19 @@ function prev_question(){
 function init_question() {
     console.log(questions,buttons)
     document.getElementById("question").innerHTML = questions[questionId]["question"]
-    let buttonHTML = ""
+    const buttonHolder = document.getElementById("buttonholder")
+    while (buttonHolder.firstChild) buttonHolder.firstChild.remove()
     let answers = questions[questionId].answers
     for(let i = 0; i<answers.length; i++) {
         let button = buttons[answers[i]]
-        buttonHTML += `<button class="button" onclick="next_question('${answers[i]}')" style="background-color:${button.bgcolor}; color:${button.textcolor};">${button.text}</button>`
+        let buttonEl = document.createElement("button")
+        buttonEl.className = "button"
+        buttonEl.addEventListener("click", ()=> next_question(answers[i]))
+        buttonEl.style.backgroundColor = button.bgcolor
+        buttonEl.style.color = button.textcolor
+        buttonEl.innerText = button.text
+        buttonHolder.appendChild(buttonEl)
     }
-    document.getElementById("buttonholder").innerHTML = buttonHTML
 }
 
 async function load_ui(quiz){
