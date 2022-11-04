@@ -1,40 +1,24 @@
-var langs = []
-var lang
+import questions from "./questions.js"
+
+const results = Object.values(questions)
+    .flatMap(q => Object.values(q.results))   // Get all results in a one dim array
+    .filter((r, i, arr)=> arr.indexOf(r)===i) // Remove repeated items
+
 const langDropdown = document.getElementById("langDropdown")
 
-function load_ui(index){
-    document.getElementById("title").innerHTML = index.title
-    document.getElementById("text_body").innerHTML = index.text
-    document.getElementById("startbutton").innerHTML = index.start
-    document.getElementById("contacts").innerHTML = index.contacts
-    document.getElementById("contacts_info").innerHTML = index.contact_info
-    document.getElementById("startbutton").onclick = () => location.href = `quiz.html?${lang}`
-    fetch(`./json/${lang}/results-${lang}.json`)
-        .then(response => response.json())
-        .then(data => document.getElementById("ideo_lenght").innerHTML = Object.keys(data).length)
-}
-
 langDropdown.addEventListener("change", ()=> {
-    let i = langDropdown.selectedIndex
-    location.href = `index.html?${langs[i]}`
+    location.href = `index.html?${langDropdown.value}`
 })
 
-function parse_langs(data){
-    for(let i=0; i < data.length; i++){
-        langs.push(data[i].id)
-        langDropdown.innerHTML += `<option value="${i}">${data[i].name}</option>`
-    }
-    if (langs.some(element => element === window.location.search.substring(1))){
-        lang = window.location.search.substring(1)
-    } else {
-        lang = "en"
-    }
-    langDropdown.selectedIndex = langs.indexOf(lang,0)
-    fetch(`./json/${lang}/ui-${lang}.json`)
-        .then(response => response.json())
-        .then(data => load_ui(data.index))
-}
+i18n.$l10nLangs.forEach(lang => {
+    const selected = lang === i18n.$lang
+    langDropdown.innerHTML += `<option value="${lang}" ${selected&&"selected"}>${i18n.$l10nData[lang].lang_name}</option>`
+})
 
-window.onload = () => fetch(`./json/langs.json`)
-    .then(response => response.json())
-    .then(data => parse_langs(data))
+document.getElementById("title").innerHTML = i18n.ui_index_title
+document.getElementById("text_body").innerHTML = i18n.ui_index_text
+document.getElementById("startbutton").innerHTML = i18n.ui_index_start
+document.getElementById("contacts").innerHTML = i18n.ui_index_contacts
+document.getElementById("contacts_info").innerHTML = i18n.ui_index_contact_info
+document.getElementById("startbutton").onclick = () => location.href = `quiz.html?${i18n.$lang}`
+document.getElementById("ideo_lenght").innerHTML = results.length

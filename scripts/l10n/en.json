@@ -1,0 +1,16 @@
+{
+  "lang_name": "English",
+  "translators": "<li> <a href=\"https://github.com/TheGhostOfInky\" >TheGhostOfInky</a></li><li> <a href=\"https://github.com/sp00ky-guy\" >sp00ky-guy</a></li>",
+  "ui_index_title": "Ideosorter",
+  "ui_index_text": "<h2>What is Ideosorter?</h2><p>Ideosorter is, in essence, a political quiz that attempts to assign an ideology that matches your views the closest by asking questions to you based on a flowchart model. This test will sort you into one of <span id='ideo_lenght'></span> different ideologies based on your answers to these questions; maybe you'll discover something you didn't know about yourself!</p><h2>I don't understand one of the questions!</h2><p>If there's anything you don't understand, we've tried to make any terminology easily looked up, and if it's still not clear, tell us so we can make some changes to the questions!</p><h2>I don't like my matched ideology!</h2><p>¯\\_(ツ)_/¯</p>",
+  "ui_index_start": "Click here to start!",
+  "ui_index_contacts": "Contacts:",
+  "ui_index_contact_info": "<p>TheGhostOfInky#9229</p><p>theghostofinky@gmail.com</p><p><a href=\"https://github.com/Ideosorter/ideosorter.github.io\">GitHub Page</a></p>",
+  "ui_quiz_title": "Ideosorter - Quiz",
+  "ui_quiz_back": "back",
+  "ui_results_title": "Ideosorter - Results",
+  "ui_results_back": "Return to Index",
+  "ui_results_credits": "Credits",
+  "ui_tree_title": "Ideosorter - Tree",
+  "ui_tree_info": "You can use arrows to navigate or mouse click to focus some path."
+}

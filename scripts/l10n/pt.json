@@ -1,0 +1,16 @@
+{
+  "lang_name": "Português (Not finished)",
+  "translators": "<li> <a href=\"https://github.com/TheGhostOfInky\" >TheGhostOfInky</a></li>",
+  "ui_index_title": "Ideosorter",
+  "ui_index_text": "<h2>O que é o Ideosorter?</h2><p>Ideosorter é, em essência, um teste político que atempta atribuir uma ideologia que se aproxima dos seus ideais politicos perguntando questões orientadas num estilo de um fluxograma. Este teste irá atribuir-lhe uma de <span id='ideo_lenght'></span> diferentes ideologias politicas com base nas suas repostas às questões dadas; talvês descobirá algo que não conhece sobre si!</p><h2>Eu não entendo uma das questões!</h2><p>Se houver algo que não preceba nõs tentamos utilizar terminologia o mais fácil de pesquisar possivel e se houver algo não claro, pode contactar-nos com quaisquer comentários de modo a podermos fazer alterações ao teste!</p><h2>Eu não gosto da ideologia que me foi designada!</h2><p>¯\\_(ツ)_/¯</p>",
+  "ui_index_start": "Clique aquí para começar!",
+  "ui_index_contacts": "Contactos:",
+  "ui_index_contact_info": "<p>TheGhostOfInky#9229</p><p>theghostofinky@gmail.com</p><p><a href=\"https://github.com/Ideosorter/ideosorter.github.io\">Página Github</a></p>",
+  "ui_quiz_title": "Ideosorter - Teste",
+  "ui_quiz_back": "Anterior",
+  "ui_results_title": "Ideosorter - Resultados",
+  "ui_results_back": "Voltar ao índice",
+  "ui_results_credits": "Créditos",
+  "ui_tree_title": "Ideosorter - Árvore",
+  "ui_tree_info": "Você pode usar as setas para navegar, ou clique para focar um caminho."
+}

@@ -1,0 +1,27 @@
+#!/usr/bin/env node
+"use strict";
+
+const fs = require("fs")
+const langs = require("../json/langs.json")
+
+langs.forEach(lang => {
+    const id = lang.id
+    const oldData = {
+        ui: require(`../json/${id}/ui-${id}.json`),
+        results: require(`../json/${id}/results-${id}.json`),
+        buttons: require(`../json/${id}/buttons-${id}.json`),
+        questions: require(`../json/${id}/questions-${id}.json`)
+    }
+    const newData = {
+        lang_name: lang.name,
+        translators: lang.authors
+    }
+    Object.entries(oldData.ui).forEach(([page, content])=> {
+        Object.entries(content).forEach(([key, text])=> {
+            newData['ui_'+page+'_'+key] = text
+        })
+    })
+    console.log('==============================================================')
+    console.log(newData)
+    fs.writeFileSync(`./scripts/l10n/${id}.json`, JSON.stringify(newData, null, '  '))
+})

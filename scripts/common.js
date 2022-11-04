@@ -1,3 +1,5 @@
-const currentPage = document.location.href.replace(/.*\/|\.html.*/g, '') || 'index'
+import { loadL10n } from "./i18n.js"
 
-import(`./page-${currentPage}.js`)
+const currentPage = document.location.href.replace(/.*\/|(\.html|\?).*/g, '') || 'index'
+
+loadL10n().then(()=> import(`./page-${currentPage}.js`))
