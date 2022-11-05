@@ -1,5 +1,4 @@
-var lang
-var ideo
+const ideo = window.location.search.split("&")[1]
 
 function throw404(){
     let lottieScript = document.createElement("script")
@@ -11,43 +10,15 @@ function throw404(){
     document.getElementById("desc").innerHTML = "<lottie-player src='https://assets7.lottiefiles.com/temp/lf20_0txt7u.json' background='transparent' speed='1' style='width: 300px; height: 300px;margin:auto' loop autoplay></lottie-player>"
 }
 
-function load_results(data){
-    if (typeof data[ideo] != "undefined"){
-        document.getElementById("image").src = `assets/flags/${ideo}_flag.svg`
-        document.getElementById("result").innerHTML = data[ideo].result
-        document.getElementById("desc").innerHTML = data[ideo].desc
-    } else {
-        throw404()
-    }
-}
+document.getElementById("results_title").innerHTML = i18n.ui_results_title
+document.getElementById("indexbutton").innerHTML = i18n.ui_results_back
+document.getElementById("indexbutton").onclick = () => location.href = `index.html?${lang}`
+document.getElementById("creditsbutton").innerHTML = i18n.ui_results_credits
 
-function load_ui(results){
-    document.getElementById("results_title").innerHTML = results.title
-    document.getElementById("indexbutton").innerHTML = results.back
-    document.getElementById("indexbutton").onclick = () => location.href = `index.html?${lang}`
-    document.getElementById("creditsbutton").innerHTML = results.credits
-    fetch(`./json/${lang}/results-${lang}.json`)
-        .then(response => response.json())
-        .then(data => load_results(data))
+if (i18n.$l10nData.en[`ideo_${ideo}`]) { // has translation defined to this ideo.
+    document.getElementById("image").src = `assets/flags/${ideo}_flag.svg`
+    document.getElementById("result").innerHTML = i18n[`ideo_${ideo}`]
+    document.getElementById("desc").innerHTML = i18n[`ideo_${ideo}_desc`]
+} else {
+    throw404()
 }
-
-function parse_langs(data){
-    let langs = []
-    for(let i=0; i < data.length; i++){
-        langs.push(data[i].id)
-    }
-    let queryVars = window.location.search.substring(1).split("&")
-    ideo = queryVars[1]
-    if (langs.some(element => element === queryVars[0])){
-        lang = queryVars[0]
-        fetch(`./json/${lang}/ui-${lang}.json`)
-            .then(response => response.json())
-            .then(data => load_ui(data.results))
-    } else {
-        throw404()
-    }
-}
-
-window.onload = () => fetch(`./json/langs.json`)
-    .then(response => response.json())
-    .then(data => parse_langs(data))
