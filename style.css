@@ -223,6 +223,41 @@ button {
   }
 }
 
+#loading, #loading::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 210px;
+  height: 210px;
+  border: 10px solid;
+  border-color: #444 #444 transparent transparent;
+  border-radius: 50%;
+  animation: reverse loading-rotation 1s linear infinite;
+}
+#loading {
+  width: 200px;
+  height: 200px;
+  border-width: 20px;
+  filter: drop-shadow(0 0 10px #DDD) drop-shadow(0 0 10px #DDD) drop-shadow(0 0 10px #DDD);
+  transition: opacity 1s;
+  animation: loading-rotation 2s linear infinite;
+}
+
+@keyframes loading-rotation {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+#loading.hide {
+  opacity: 0;
+}
+
 @media (prefers-color-scheme: dark) {
     html{
         background-color: #222;
@@ -257,6 +292,12 @@ button {
     }
     .github-corner .octo-arm, .github-corner .octo-body {
       fill: #222;
+    }
+    #loading, #loading::before {
+      border-color: #DDD #DDD transparent transparent;
+    }
+    #loading {
+      filter: drop-shadow(0 0 10px #222) drop-shadow(0 0 10px #222) drop-shadow(0 0 10px #222);
     }
 }
 
