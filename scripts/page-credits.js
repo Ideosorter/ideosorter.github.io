@@ -1,11 +1,9 @@
-function parse_langs(data){
-    let langList = ""
-    for(let i=0; i < data.length; i++){
-        langList += "<p>" + data[i].name + ":</p><ul>" + data[i].authors + "</ul>"
-    }
-    document.getElementById("credits_body").innerHTML = langList
-}
+let langList = ""
 
-window.onload = () => fetch(`./json/langs.json`)
-    .then(response => response.json())
-    .then(data => parse_langs(data))
+Object.entries(i18n.$l10nData).forEach(([lang, langData])=>
+    langList +=
+        `<p>${langData.lang_name}:</p>` +
+        `<ul>${langData.translators}</ul>`
+)
+
+document.getElementById("credits_body").innerHTML = langList
