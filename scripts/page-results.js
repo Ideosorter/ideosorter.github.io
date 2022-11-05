@@ -12,7 +12,7 @@ function throw404(){
 
 document.getElementById("results_title").innerHTML = i18n.ui_results_title
 document.getElementById("indexbutton").innerHTML = i18n.ui_results_back
-document.getElementById("indexbutton").onclick = () => location.href = `index.html?${lang}`
+document.getElementById("indexbutton").onclick = () => location.href = `index.html?${i18n.$lang}`
 document.getElementById("creditsbutton").innerHTML = i18n.ui_results_credits
 
 if (i18n.$l10nData.en[`ideo_${ideo}`]) { // has translation defined to this ideo.

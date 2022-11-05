@@ -1,8 +1,8 @@
-var lang
-var questions
-var questionId
-var buttons
-var answerpath = []
+import questions from "./questions.js"
+import buttons from "./buttons.js"
+
+let questionId
+const answerpath = []
 
 function next_question(sel) {
     if (questions[questionId].results[sel] == null) {
@@ -10,13 +10,13 @@ function next_question(sel) {
         questionId = questions[questionId].nextquestion[sel]
         init_question()
     } else {
-        location.href = `results.html?${lang}&${questions[questionId].results[sel]}`
+        location.href = `results.html?${i18n.$lang}&${questions[questionId].results[sel]}`
     }
 }
 
-function prev_question(){
+window.prev_question = function prev_question(){
     if(answerpath.length == 0){
-        location.href = `index.html?${lang}`
+        location.href = `index.html?${i18n.$lang}`
     } else {
         questionId = answerpath.at(-1)
         answerpath.pop()
@@ -25,7 +25,6 @@ function prev_question(){
 }
 
 function init_question() {
-    console.log(questions,buttons)
     document.getElementById("question").innerHTML = questions[questionId]["question"]
     const buttonHolder = document.getElementById("buttonholder")
     while (buttonHolder.firstChild) buttonHolder.firstChild.remove()
@@ -42,36 +41,11 @@ function init_question() {
     }
 }
 
-async function load_ui(quiz){
-    document.getElementById("quiz_title").innerHTML = quiz.title
-    if(Array.prototype.at){
-        document.getElementById("back_button").innerHTML = quiz.back
-    } else {
-        document.getElementById("back_button").style.display = "none"
-    }
-    buttons = await fetch(`./json/${lang}/buttons-${lang}.json`)
-        .then(response => response.json())
-    questions = await fetch(`./json/${lang}/questions-${lang}.json`)
-        .then(response => response.json())
-    questionId = Object.keys(questions)[0]
-    init_question()
+document.getElementById("quiz_title").innerHTML = i18n.ui_quiz_title
+if(Array.prototype.at){
+    document.getElementById("back_button").innerHTML = i18n.ui_quiz_back
+} else {
+    document.getElementById("back_button").style.display = "none"
 }
-
-function parse_langs(data){
-    let langs = []
-    for(let i=0; i < data.length; i++){
-        langs.push(data[i].id)
-    }
-    if (langs.some(element => element === window.location.search.substring(1))){
-        lang = window.location.search.substring(1)
-    } else {
-        lang = "en"
-    }
-    fetch(`./json/${lang}/ui-${lang}.json`)
-        .then(response => response.json())
-        .then(data => load_ui(data.quiz))
-}
-
-window.onload = () => fetch(`./json/langs.json`)
-    .then(response => response.json())
-    .then(data => parse_langs(data))
+questionId = Object.keys(questions)[0]
+init_question()
