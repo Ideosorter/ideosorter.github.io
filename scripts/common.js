@@ -4,7 +4,9 @@ const currentPage = document.location.href.replace(/.*\/|(\.html|\?).*/g, '') ||
 
 const loadingEl = document.createElement('div')
 loadingEl.id = 'loading'
+loadingEl.className = 'hide'
 document.body.appendChild(loadingEl)
+setTimeout(()=> loadingEl.className = '', 50)
 
 loadL10n()
     .then(()=> Promise.all([
