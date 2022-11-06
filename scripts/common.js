@@ -7,11 +7,12 @@ loadingEl.id = 'loading'
 document.body.appendChild(loadingEl)
 
 loadL10n()
-    .then(()=>
+    .then(()=> Promise.all([
+        import('./questions.js'), // Force parallel preload
         import(`./page-${currentPage}.js`).catch((err)=> {
             throw Error(`Fail to load ${currentPage} page script.\n\n${err.message}`)
         })
-    )
+    ]))
     .catch((err)=> {
         console.error(err)
         alert(err.message)
