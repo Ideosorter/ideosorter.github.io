@@ -19,5 +19,5 @@ loadL10n()
     })
     .finally(()=> {
         loadingEl.className = 'hide'
-        setTimeout(()=> loadingEl.remove(), 1000)
+        setTimeout(()=> loadingEl.remove(), 500)
     })

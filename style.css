@@ -229,19 +229,20 @@ button {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 210px;
-  height: 210px;
+  width: 110px;
+  height: 110px;
   border: 10px solid;
   border-color: #444 #444 transparent transparent;
   border-radius: 50%;
   animation: reverse loading-rotation 1s linear infinite;
 }
 #loading {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   border-width: 20px;
   filter: drop-shadow(0 0 10px #DDD) drop-shadow(0 0 10px #DDD) drop-shadow(0 0 10px #DDD);
-  transition: opacity 1s;
+  opacity: .75;
+  transition: opacity 500ms;
   animation: loading-rotation 2s linear infinite;
 }
 
