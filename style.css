@@ -59,7 +59,7 @@ button {
     border-radius: 10px;
     display: block;
     text-align: center;
-    margin: 0 auto;
+    margin: 0.5em auto;
     cursor: pointer;
 }
 
@@ -345,7 +345,7 @@ button {
   select {
     margin: 2 auto;
   }
-  #startbutton, #indexbutton, #creditsbutton, #returnbutton {
+  .large-button {
     max-width: 80%;
     width: 80%;
     min-width: 80%;

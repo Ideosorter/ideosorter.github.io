@@ -18,7 +18,9 @@ i18n.$l10nLangs.forEach(lang => {
 document.getElementById("title").innerHTML = i18n.ui_index_title
 document.getElementById("text_body").innerHTML = i18n.ui_index_text
 document.getElementById("startbutton").innerHTML = i18n.ui_index_start
+document.getElementById("treebutton").innerHTML = i18n.ui_index_tree
 document.getElementById("contacts").innerHTML = i18n.ui_index_contacts
 document.getElementById("contacts_info").innerHTML = i18n.ui_index_contact_info
 document.getElementById("startbutton").onclick = () => location.href = `quiz.html?${i18n.$lang}`
-document.getElementById("ideo_lenght").innerHTML = results.length
+document.getElementById("treebutton").onclick = () => location.href = `tree.html?${i18n.$lang}`
+document.getElementById("ideo_length").innerHTML = results.length

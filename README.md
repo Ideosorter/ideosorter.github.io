@@ -4,7 +4,7 @@ Ideosorter is a flowchart based interactive political quiz that attempts to brin
 <br />
 
 ## Ideosorter 3 requirements
- - A browser that supports ECMAScript 2017, (the application requires promises, async/await and the [fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) (all latest versions of the common browsers, including chrome firefox safari edge and brave)
+ - A browser that supports ECMAScript 2022, (the application requires promises, async/await, Array.prototype.at() and the [fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) (all latest versions of the common browsers, including Chromium based browsers(Chrome, Opera, Edge, Brave, etc...), Firefox and Safari)
 
 <br />
 

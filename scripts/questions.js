@@ -423,7 +423,7 @@ export default {
         results: {},
         nextquestion: {
             "yes": "3worlds",
-            "no": "socinone"
+            "no": "nep"
         }
     },
     "3worlds": {
@@ -433,10 +433,11 @@ export default {
             "no"
         ],
         results: {
+            "yes": "mao",
             "no": "mlm"
         },
         nextquestion: {
-            "yes": "nep"
+
         }
     },
     nep: {
@@ -447,9 +448,11 @@ export default {
         ],
         results: {
             "yes": "deng",
-            "no": "mao"
+
         },
-        nextquestion: {}
+        nextquestion: {
+            "no": "socinone"
+        }
     },
     socinone: {
         question: i18n.question_socinone,
