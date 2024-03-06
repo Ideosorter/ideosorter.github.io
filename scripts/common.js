@@ -6,20 +6,21 @@ const loadingEl = document.createElement('div')
 loadingEl.id = 'loading'
 loadingEl.className = 'hide'
 document.body.appendChild(loadingEl)
-setTimeout(()=> loadingEl.className = '', 50)
+setTimeout(() => loadingEl.className = '', 50)
 
-loadL10n()
-    .then(()=> Promise.all([
-        import('./questions.js'), // Force parallel preload
-        import(`./page-${currentPage}.js`).catch((err)=> {
-            throw Error(`Fail to load ${currentPage} page script.\n\n${err.message}`)
+window.onload = () =>
+    loadL10n()
+        .then(() => Promise.all([
+            import('./questions.js'), // Force parallel preload
+            import(`./page-${currentPage}.js`).catch((err) => {
+                throw Error(`Fail to load ${currentPage} page script.\n\n${err.message}`)
+            })
+        ]))
+        .catch((err) => {
+            console.error(err)
+            alert(err.message)
         })
-    ]))
-    .catch((err)=> {
-        console.error(err)
-        alert(err.message)
-    })
-    .finally(()=> {
-        loadingEl.className = 'hide'
-        setTimeout(()=> loadingEl.remove(), 500)
-    })
+        .finally(() => {
+            loadingEl.className = 'hide'
+            setTimeout(() => loadingEl.remove(), 500)
+        });
