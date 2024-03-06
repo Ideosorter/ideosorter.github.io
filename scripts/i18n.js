@@ -2,7 +2,7 @@ const langRequested = window.location.search.substring(1).split('&')[0]
 const langEnforce = langRequested ? [langRequested] : null
 
 export async function loadL10n() {
-    const langs = ['cs', 'de', 'en', 'es','ko', 'pt', 'zhcn', 'zhtw']
+    const langs = ['cs', 'de', 'en', 'es', 'ko', 'pt', 'zhcn', 'zhtw', 'fr']
     const l10nDataList = await Promise.all([
         ...langs.map(lang =>
             fetch(`./scripts/l10n/${lang}.json`)
@@ -15,6 +15,6 @@ export async function loadL10n() {
     ])
     const i18nBuilder = l10nDataList.pop().default
     const l10nData = {}
-    langs.forEach((lang, i)=> l10nData[lang] = l10nDataList[i])
+    langs.forEach((lang, i) => l10nData[lang] = l10nDataList[i])
     window.i18n = i18nBuilder(l10nData, langEnforce)
 }
