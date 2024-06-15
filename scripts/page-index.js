@@ -28,6 +28,4 @@ document.getElementById("contacts").innerHTML = [...i18n.ui_index_contacts].join
 document.getElementById("contacts_info").innerHTML = [...i18n.ui_index_contact_info].join("")
 document.getElementById("startbutton").onclick = () => location.href = `quiz.html?${i18n.$lang}`
 document.getElementById("treebutton").onclick = () => location.href = `tree.html?${i18n.$lang}`
-textBody.onload = () => {
-    document.getElementById("ideo_length").innerHTML = results.length
-}
+document.getElementById("ideo_length").innerText = results.length.toFixed(0)
