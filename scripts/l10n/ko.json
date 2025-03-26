@@ -5,7 +5,7 @@
   "ui_index_text": "<h2>Ideosorter?</h2><p>플로우 차트 형식의 질문을 던져, 당신의 관점에 가장 근접한 이념을 찾아드리는 간단한 테스트입니다. 이 테스트는 <span id='ideo_length'></span> 가지의 이념을 탑재하고 있습니다.</p><h2>질문을 이해할 수 없습니다!</h2><p>이해가 안 되는 용어가 있으면 쉽게 찾아볼 수 있도록 노력하였고, 정확해지려 최선을 다했습니다. 혹시 문제가 더 남아있다면 질문 내용을 수정할 수 있도록 말씀해 주십시오!</p><h2>결과가 마음에 들지 않습니다!</h2><p>네.</p>",
   "ui_index_start": "여기를 눌러 시작하세요!",
   "ui_index_contacts": "연락처:",
-  "ui_index_contact_info": "<p>TheGhostOfInky#2853</p><p>theghostofinky@gmail.com</p><p><a href=\"https://github.com/Ideosorter/ideosorter.github.io\">GitHub Page</a></p>",
+  "ui_index_contact_info": "<p><a href=\"https://github.com/Ideosorter/ideosorter.github.io\">GitHub Page</a></p>",
   "ui_quiz_title": "Ideosorter - Quiz",
   "ui_quiz_back": "뒤로가기",
   "ui_results_title": "Ideosorter - Results",

@@ -1,3 +1,7 @@
+> [!IMPORTANT]  
+> This project is looking for new maintainers, if you're interested in becoming one, join [this discussion](https://github.com/Ideosorter/ideosorter.github.io/discussions/61).
+
+
 # Ideosorter
 Ideosorter is a flowchart-based interactive political quiz that attempts to bring a different approach to political quizzes.
 
